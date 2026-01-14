@@ -13,7 +13,7 @@ def main() -> None:
     print("6. Első sor\nMásodik sor")
     # Több string kiíratása egyben
     print("7.", "35", "36", "37")
-    # Szeparátor és sorvége stringek beállítása
+    # Szeparátor és sorvége stringek beállítása (akár külön-külön is)
     print("8.", "35", "36", "37", sep="\t", end="\n")
 
     print("Változók kiíratása:")

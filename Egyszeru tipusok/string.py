@@ -18,8 +18,9 @@ def main() -> None:
     # Variáció összefűzésre
     s4 = s + " " + s2
     print(s4)
-
-
+    # Nem ajánlott összefűzési módszer
+    s5 = "Alma" "fa"
+    print(s5)
 
 
 if __name__ == "__main__":

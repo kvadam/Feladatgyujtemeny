@@ -9,7 +9,7 @@ def main() -> None:
     print(s2)
     # Kétféle string jelölés létezik
     s = "alma"
-    s2 = 'alma'
+    s2 = 'fa'
     # Idézőjel használata string-en belül
     print('"Jó olvasó holtig olvas" Hegedűs Géza')
     # Két szöveg összefűzése
@@ -19,7 +19,7 @@ def main() -> None:
     s4 = s + " " + s2
     print(s4)
     # Nem ajánlott összefűzési módszer
-    s5 = "Alma" "fa"
+    s5 = "alma" "fa"
     print(s5)
 
 

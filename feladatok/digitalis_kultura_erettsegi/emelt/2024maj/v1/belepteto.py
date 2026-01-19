@@ -91,7 +91,7 @@ def feladat6() -> None:
                 benn_van = True
             elif adat.esemeny_azon == 2:
                 benn_van = False
-
+    print()
 
 def feladat7() -> None:
     print("7. feladat")

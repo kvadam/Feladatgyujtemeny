@@ -37,9 +37,5 @@ def main() -> None:
     v1 = s3.upper()
     print(v1)
 
-
-
-
-
 if __name__ == "__main__":
     main()

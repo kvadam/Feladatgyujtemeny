@@ -8,6 +8,12 @@ class Csomopont:
 
 adatok: list[Csomopont] = list()
 
+def varosnev_e(megnevezes: str) -> bool:
+    if len(megnevezes) > 2:
+        return True
+    return False
+
+
 def feladat1() -> int:
     with open("../forras/ut.txt", "r", encoding="utf-8") as forras:
         hossz = int(forras.readline().strip())
@@ -16,12 +22,6 @@ def feladat1() -> int:
             adat = Csomopont(int(s[0]), s[1])
             adatok.append(adat)
     return hossz
-
-
-def varosnev_e(megnevezes: str) -> bool:
-    if len(megnevezes) > 2:
-        return True
-    return False
 
 
 def feladat2() -> None:
@@ -87,6 +87,7 @@ def feladat5() -> str:
     print(f"Az út hossza a településen belül {ut_varosban} méter.")
     return telepules
 
+
 def feladat6(telepules: str) -> None:
     ti = 0
     kov_varos_index = -1
@@ -117,7 +118,6 @@ def feladat6(telepules: str) -> None:
         legkozelebbi_varos_index = kov_varos_index
     else:
         legkozelebbi_varos_index = elozo_varos_index
-
 
     print(f"A legközelebbi település: {adatok[legkozelebbi_varos_index].megnevezes}")
 

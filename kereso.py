@@ -1,10 +1,10 @@
 from pathlib import Path
 
-def keres(utvonal: Path, parancs: str) -> None:
+def kereses(utvonal: Path, parancs: str) -> None:
     for objektum in utvonal.iterdir():
 
         if objektum.is_dir():
-            keres(objektum, parancs)
+            kereses(objektum, parancs)
 
         if objektum.name[-2:] == "py":
             with open(objektum, "r", encoding="utf-8") as forras:
@@ -18,11 +18,11 @@ def keres(utvonal: Path, parancs: str) -> None:
 
 
 def main() -> None:
-    projekt_mappa = Path(__file__).resolve().parent.parent
+    projekt_mappa = Path(__file__).resolve().parent
     feladatok_mappa = projekt_mappa / "feladatok"
 
     parancsnev: str = input("Milyen parancsot keresel?: ")
-    keres(feladatok_mappa, parancsnev)
+    kereses(feladatok_mappa, parancsnev)
 
 
 if __name__ == "__main__":

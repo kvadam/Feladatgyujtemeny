@@ -93,6 +93,7 @@ def feladat6() -> None:
                 benn_van = False
     print()
 
+
 def feladat7() -> None:
     print("7. feladat")
     tanulo_azon: str = input("Adj meg egy azonosítót: ")
@@ -118,7 +119,7 @@ def feladat7() -> None:
     temp: float = (veg_ido - kezdo_ido).total_seconds()
     ora: int = int(temp // 3600) # 7320 // 3600 = 2
     perc: int = int(temp % 3600 // 60)  # 7300 % 3600 -> 120 // 60 = 2
-    print(f"{ora} óra {perc} perc")
+    print(f"A tanuló érkezése és távozása között {ora} óra {perc} perc telt el.")
 
 
 def main():

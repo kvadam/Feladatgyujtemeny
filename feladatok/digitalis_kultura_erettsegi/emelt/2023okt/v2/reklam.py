@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from functools import reduce
 
 @dataclass
 class Rendeles:
@@ -40,20 +41,40 @@ def feladat4() -> None:
 
 def feladat5() -> None:
     print("5. feladat:")
-
+    legnagyobb: Rendeles = reduce(lambda x, y: x if x.db > y.db else y, rendelesek)
+    print(f"A legnagyobb darabszám: {legnagyobb.db}, a rendelés napja: {legnagyobb.nap}")
 
 
 def osszes(varos: str, nap: int) -> int:
-    pass
+    return sum([rendeles.db for rendeles in rendelesek if rendeles.varos == varos and rendeles.nap == nap])
 
 
 def feladat7():
     print("7. feladat:")
-
+    print(f"A rendelt termékek darabszáma a 21. napon PL: {osszes("PL", 21)} TV: {osszes("TV", 21)}"
+          f" NR: {osszes("NR", 21)}")
 
 
 def feladat8():
     print("8. feladat:")
+    with open("kampany.txt", "w", encoding="utf-8") as kampany:
+        print("Napok\t1..10\t11..20\t21..30")
+        kampany.write("Napok\t1..10\t11..20\t21..30\n")
+
+        eladasok: dict[str, list[int]]  = {"PL": [0, 0, 0], "TV": [0, 0, 0], "NR": [0, 0, 0]}
+
+        for rendeles in rendelesek:
+            i = (rendeles.nap - 1) // 10
+            eladasok[rendeles.varos][i] += 1
+
+        for varos in eladasok:
+            print(varos, end="")
+            kampany.write(varos)
+            for eladas in eladasok[varos]:
+                print(f"\t\t{eladas}", end="")
+                kampany.write(f"\t\t{eladas}")
+            print()
+            kampany.write("\n")
 
 
 def main() -> None:

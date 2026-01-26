@@ -40,7 +40,7 @@ def main() -> None:
     j: int = 0
     while j < len(szamok) and szamok[j] % 2 != 0:
         j += 1
-
+   
     if j < len(szamok):
         print(f"Az első páros szám indexe: {j}")
     else:

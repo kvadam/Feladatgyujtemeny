@@ -83,7 +83,7 @@ def feladat8():
         eladasok: dict[str, list[int]]  = {"PL": [0, 0, 0], "TV": [0, 0, 0], "NR": [0, 0, 0]}
 
         for rendeles in rendelesek:
-            i = (rendeles.nap - 1) // 10
+            i: int = (rendeles.nap - 1) // 10
             eladasok[rendeles.varos][i] += 1
 
         for varos in eladasok:

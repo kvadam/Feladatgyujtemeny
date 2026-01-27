@@ -5,7 +5,7 @@ L: int = int(input("Mari néni lekvárja (dl): "))
 
 print("3. feladat")
 legnagyobb_i: int = 0
-for i in range(len(urtaltalmak)):
+for i in range(1, len(urtaltalmak)):
     if urtaltalmak[i] > urtaltalmak[legnagyobb_i]:
         legnagyobb_i = i
 

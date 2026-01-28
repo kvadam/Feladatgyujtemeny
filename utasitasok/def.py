@@ -5,6 +5,7 @@ def udv() -> None:
 def udv2(nev: str) -> None:
     print(f"Helló, {nev}!")
 
+
 def udv3(nev: str) -> str:
     return f"Helló, {nev}!"
 

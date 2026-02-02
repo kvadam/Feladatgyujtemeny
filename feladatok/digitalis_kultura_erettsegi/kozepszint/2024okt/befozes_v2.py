@@ -4,12 +4,7 @@ print("2. feladat")
 L: int = int(input("Mari néni lekvárja (dl): "))
 
 print("3. feladat")
-legnagyobb_i: int = 0
-for i in range(1, len(urtaltalmak)):
-    if urtaltalmak[i] > urtaltalmak[legnagyobb_i]:
-        legnagyobb_i = i
-
-print(f"A legnagyobb üveg: {urtaltalmak[legnagyobb_i]} dl és {legnagyobb_i + 1}. a sorban")
+print(f"A legnagyobb üveg: {max(urtaltalmak)} dl és {urtaltalmak.index(max(urtaltalmak)) + 1}. a sorban")
 
 print("4. feladat")
 print("Elegendő üveg volt.") if sum(urtaltalmak) >= L else print("Maradt lekvár.")

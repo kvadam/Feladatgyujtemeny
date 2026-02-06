@@ -31,7 +31,7 @@ def feladat4() -> list[int]:
     print("\n4. feladat")
     # osveny_ssz: int = int(input("Adja meg egy ösvény sorszámát! ")) - 1
     # jatekosok_szama: int = int(input("Adja meg a játékosok számát! "))
-    osveny_ssz: int = 9-1
+    osveny_ssz: int = 1-1
     jatekosok_szama: int = 5
     return [osveny_ssz, jatekosok_szama]
 
@@ -60,7 +60,7 @@ def feladat7(osveny_ssz: int, jatekosok_szama: int) -> None:
     print("\n7. feladat")
     osveny: str = osvenyek[osveny_ssz]
     cel: int = len(osveny)
-    jatekallas: list[int] = [0 for i in range(jatekosok_szama)]
+    jatekallas: list[int] = [0 for _ in range(jatekosok_szama)]
     korok_szama: int = 0
     dobas_i = 0
 
@@ -80,27 +80,31 @@ def feladat7(osveny_ssz: int, jatekosok_szama: int) -> None:
 
 def feladat8(osveny_ssz: int, jatekosok_szama: int) -> None:
     print("\n8. feladat")
-    # osveny: str = osvenyek[osveny_ssz]
-    # cel: int = len(osveny)
-    # jatekallas: list[int] = [0 for i in range(jatekosok_szama)]
-    # korok_szama: int = 0
-    # dobas_i = 0
-    #
-    # while cel > max(jatekallas):
-    #     korok_szama += 1
-    #     for jatekos_i in range(len(jatekallas)):
-    #         jatekallas[jatekos_i] += dobasok[dobas_i]
-    #         if osveny[jatekallas[jatekos_i]] == "E":
-    #             jatekallas[jatekos_i] += dobasok[dobas_i]
-    #         elif osveny[jatekallas[jatekos_i]] == "V":
-    #             jatekallas[jatekos_i] -= dobasok[dobas_i]
-    #         dobas_i += 1
-    #
-    # print(f"A játék a(z) {korok_szama}. körben fejeződött be. A legtávolabb jutó(k) sorszáma: ", end="")
-    # legnagyobb_tav: int = max(jatekallas)
-    # for jatekos_i in range(len(jatekallas)):
-    #     if jatekallas[jatekos_i] == legnagyobb_tav:
-    #          print(f"{jatekos_i + 1}")
+    osveny: str = osvenyek[osveny_ssz]
+    cel: int = len(osveny)
+    jatekallas: list[int] = [0 for _ in range(jatekosok_szama)]
+    dobas_i = 0
+
+    while cel > max(jatekallas):
+        for jatekos_i in range(len(jatekallas)):
+            jatekallas[jatekos_i] += dobasok[dobas_i]
+            if jatekallas[jatekos_i] > cel:
+                dobas_i += 1
+                continue
+            if osveny[jatekallas[jatekos_i] - 1] == "E":
+                jatekallas[jatekos_i] += dobasok[dobas_i]
+            elif osveny[jatekallas[jatekos_i] - 1] == "V":
+                jatekallas[jatekos_i] -= dobasok[dobas_i]
+            dobas_i += 1
+
+    print(f"Nyertes(ek):", end="")
+    for jatekos_i in range(len(jatekallas)):
+        if jatekallas[jatekos_i] >= cel:
+            print(f" {jatekos_i + 1}", end="")
+    print("\nA többiek pozíciója:")
+    for jatekos_i in range(len(jatekallas)):
+        if jatekallas[jatekos_i] < cel:
+            print(f"{jatekos_i + 1}. játékos, {jatekallas[jatekos_i]}. mező")
 
 
 def main() -> None:

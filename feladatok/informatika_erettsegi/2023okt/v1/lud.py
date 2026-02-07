@@ -4,7 +4,9 @@ osvenyek: list[str] = list()
 def feladat1() -> None:
     global dobasok
     with open("../forras/dobasok.txt", "r", encoding="utf-8") as dobasok_txt:
-        dobasok = list(map(int, dobasok_txt.readline().strip().split()))
+        adatok = dobasok_txt.readline().strip().split()
+        for adat in adatok:
+            dobasok.append(int(adat))
 
     global osvenyek
     with open("../forras/osvenyek.txt", "r", encoding="utf-8") as osvenyek_txt:

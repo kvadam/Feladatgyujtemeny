@@ -13,7 +13,7 @@ rendelesek: list[Rendeles] = list()
 def feladat1() -> None:
     with open("../forras/rendel.txt", "r", encoding="utf-8") as forras:
         for sor in forras:
-            s: list[str] = sor.strip().split(" ")
+            s: list[str] = sor.strip().split()
             rendelesek.append(Rendeles(int(s[0]), s[1], int(s[2])))
 
 

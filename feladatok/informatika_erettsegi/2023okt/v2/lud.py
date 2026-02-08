@@ -1,15 +1,12 @@
-dobasok: list[int]
+dobasok: list[int] = list()
 osvenyek: list[str] = list()
 
 def feladat1() -> None:
-    global dobasok
     with open("../forras/dobasok.txt", "r", encoding="utf-8") as dobasok_txt:
-        dobasok = list(map(int, dobasok_txt.readline().strip().split()))
+        [dobasok.append(dobas) for dobas in list(map(int, dobasok_txt.readline().strip().split()))]
 
-    global osvenyek
     with open("../forras/osvenyek.txt", "r", encoding="utf-8") as osvenyek_txt:
-        for sor in osvenyek_txt:
-            osvenyek.append(sor.strip())
+        [osvenyek.append(sor.strip()) for sor in osvenyek_txt]
 
 
 def feladat2() -> None:
@@ -90,6 +87,7 @@ def feladat8(osveny: str, jatekosok_szama: int) -> None:
 
 
 def main() -> None:
+    global dobasok
     feladat1()
     feladat2()
     feladat3()

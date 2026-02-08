@@ -24,15 +24,15 @@ statisztika: list[Osszesito] = list()
 def feladat1() -> None:
     with open("../forras/kiadas.txt", "r", encoding='utf-8') as forras:
         for sor in forras:
-            s = sor.strip().split(";")
+            s: list[str] = sor.strip().split(";")
             konyv: Konyv = Konyv(int(s[0]), int(s[1]), s[2], s[3], int(s[4]))
             konyvek.append(konyv)
 
 
 def feladat2() -> None:
     print("2. feladat")
-    # !!! szerzo = input("Szerző: ")
-    szerzo = "Benedek Elek"
+    # szerzo: str = input("Szerző: ")
+    szerzo: str = "Benedek Elek"
     db: int = 0
     for konyv in konyvek:
         if szerzo in konyv.adatok:
@@ -46,8 +46,8 @@ def feladat2() -> None:
 
 def feladat3() -> None:
     print("3. feladat")
-    pld = 0
-    alkalom = 0
+    pld: int = 0
+    alkalom: int = 0
     for konyv in konyvek:
         if pld < konyv.peldanyszam:
             pld = konyv.peldanyszam
@@ -68,8 +68,8 @@ def feladat4() -> None:
 
 def feladat5() -> None:
     print("5. feladat")
-    ev = 0
-    i = -1
+    ev: int = 0
+    i: int = -1
     for konyv in konyvek:
         if konyv.ev != ev:
             ev = konyv.ev
@@ -100,7 +100,7 @@ def feladat5() -> None:
 def feladat6() -> None:
     print("6. feladat")
     print("Legalább kétszer, nagyobb példányszámban újra kiadott könyvek:")
-    egyedi_kiadasok = set()
+    egyedi_kiadasok: set[str] = set()
 
     for konyv in konyvek:
         egyedi_kiadasok.add(konyv.adatok)
@@ -111,8 +111,8 @@ def feladat6() -> None:
             if egyedi_kiadas == konyv.adatok:
                 db.append(konyv.peldanyszam)
 
-        elso_kiadas_db = db[0]
-        hanyszor = 0
+        elso_kiadas_db: int = db[0]
+        hanyszor: int = 0
         for i in range(1, len(db)):
             if db[i] > elso_kiadas_db:
                 hanyszor += 1

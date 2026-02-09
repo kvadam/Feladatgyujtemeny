@@ -49,7 +49,7 @@ def feladat5() -> None:
     for konyv in konyvek:
         if konyv.ev != aktualis_ev:
             aktualis_ev = konyv.ev
-            statisztika.append({"ev": aktualis_ev, "ma": {"ki":0, "pld": 0}, "kf": {"ki":0, "pld": 0}})
+            statisztika.append({"ev": aktualis_ev, "ma": {"ki": 0, "pld": 0}, "kf": {"ki": 0, "pld": 0}})
             i += 1
 
         statisztika[i][konyv.eredet]["ki"] += 1

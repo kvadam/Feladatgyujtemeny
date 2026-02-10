@@ -1,0 +1,3 @@
+ELTE - Programozási feladatok
+A példatár elérhető a https://ntibi.web.elte.hu/programozas/peldatar/index.htm weboldalon
+Megjelölt forrása a http://www.brody-ajka.sulinet.hu/brody/tartalom/targyak/informatika/peldatar/htm/_prgtet.htm oldal.

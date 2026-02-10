@@ -1,0 +1,443 @@
+
+1.1
+
+Készítsünk algoritmust a fogmosásra!
+
+Most eláruljuk miként képzeljük el a megoldást, hogy  mintául
+szolgáljon a továbbiakhoz:
+
+Fogmosás:
+Vizezd meg a fogkefét;
+Tégy rá fogkrémet;
+Íblítsd ki a szád;
+Dörzsöld a fogadat 2 percig;
+Íblítsd ki a szád
+Vége.
+
+
+1.2
+
+Az előbbi 'fogas kérdésnél'  maradva:  írjunk  algoritmust  a
+foghézásra
+
+1. az orvos szemszögéből,
+2. a páciens szemszögéből!
+
+
+1.3
+
+Írjunk algoritmust mosógéppel való mosásra!
+
+
+1.4
+
+Adjuk meg az utcai telefonkészülék  használatának  algoritm u-
+sát!
+
+
+1.5
+
+Adjuk meg kedvenc ételünk elkészítésének algoritmusát!
+
+
+1.6
+
+Írjunk algoritmust a
+
+1. hajmosásra,
+2. mosásra,
+3. mosogatasra,
+4. kézmosásra!
+
+
+1.7
+
+Írjunk algoritmust az
+
+1. észómedencében való hosszabb észásra,
+2. kukoricakapálásra,
+3. borsóvetésre (nem falra!),
+4. sál kötésére!
+
+
+1.8
+
+Írjunk algoritmust
+
+1. könyv vagy folyóirat olvasására,
+2. hanglemezek hallgatására,
+3. levélírásra!
+
+
+1.9
+
+Fáradtan megyünk haza. Írjunk algoritmust arra, ahogyan a  TV
+műsorajánlatából kiválasztjuk a nekünk tetszőt (ha van)!
+
+
+1.10
+
+Adjuk meg egy italautomata működésének algoritmusát!
+
+
+1.11
+
+Adjuk meg egy munkanapunk algoritmusát!
+
+
+1.12
+
+Készítsük el a szódavíz készítésének algoritmusát!
+
+
+1.13
+
+Adjuk meg egy zenegép működtetésének algoritmusát!
+
+
+1.14
+
+Próbáljuk algoritmizálni a metróvezető tevékenységét állomá s-
+ra érkezéstől indulásig!
+
+
+1.15
+
+Írjuk meg egy közlekedési csomópont forgalomirányító  lámpája
+működési algoritmusát!  Próbáljunk  többféle  csomópontra  is
+megoldást készíteni!
+
+
+1.16
+
+Készítsünk algoritmust családi ház építésére!
+
+
+1.17
+
+Készítsünk algoritmust családi házakból álló utca építésére!
+
+
+1.18
+
+Készítsünk algoritmust falu építésére!
+
+
+1.19
+
+Írjunk algoritmust a szobafestésre! (Egyfajta festékünkvan.)
+
+
+1.20
+
+Készítsünk algoritmust a szobafestéshez égy,  hogy  az  egyes
+falak különböző színűek lehessenek!
+
+
+1.21
+
+Készítsünk algoritmust egy lakás kifestésére!
+
+
+1.22
+
+Írjuk le a vonatjegyárusító automata működési algoritmusát!
+
+
+1.23
+
+Készítsünk algoritmust egy programozási feladat megoldására!
+
+
+1.24
+
+Sétáltassuk végig az iskola folyósóján a robotot!
+
+
+1.25
+
+Sétáltassuk a robotot id e -oda az iskola folyósóján!
+
+
+1.26
+
+Sétáltassuk a robotunkat fe l -le égy, hogy  minden  fordulónál
+mondjuk meg neki, kel l -e még sétálnia!
+
+
+1.27
+
+Írjuk meg a táblatörlő robot algoritmusát!
+
+
+1.28
+
+Tanítsuk meg a  táblafestő  robotot  festékszóró  pisztollyal
+dolgozni!
+
+
+1.29
+
+Mutassuk be az iskola tanárait a robotnak! A robotot vezessük
+végig a tanárok előtt, s jegyezze fel mindegyik tanár képét!
+
+
+1.30
+
+A robot, sétája közben tanárral találkozva köszönjön udvari a-
+san!
+
+
+1.31 *
+
+Kerestessünk meg a robottal egy adott embert, annak  fényképe
+alapján!
+
+
+1.32
+
+Építtessünk házat robotunkkal!
+
+
+1.33
+
+Készítsük el a 'dajka-robot' (gyermekre  vigyázó)  algoritm u-
+sát!
+
+
+1.34 *
+
+Egy uszoda medencéjéből szökik a víz. Küldjük le  robotunkat,
+hogy:
+
+1. keresse meg hány helyen van rés a medencében,
+2. adja meg a rések helyét!
+
+
+1.35
+
+Küldjük el robotunkat bevásárolni!
+
+
+1.36
+
+Írjuk meg a felszolgáló (pincér) robot algoritmusát!
+
+
+1.37
+
+Robotunk pipázik. Adjuk meg e 'szertartás' algoritmusát!
+
+
+1.38
+
+Egy városban nagyon sok a közéti baleset. Felkérték  robotu n-
+kat segítsen a szabálytalankodók  felderítésében.  Szabályt a-
+lannak vegyük a gyorshajtást, a piroson való áthajtást! Írjuk
+meg a rendőrrobot algoritmusát!
+
+
+1.39
+
+Legyen robotunk egy tűzveszélyes üzemben tűzőr!
+
+
+1.40 *
+
+Adja meg robotunk
+
+1. egy osztály legmagasabb tanulójának nevét,
+2. a legmagasabb tanuló magasságát is!
+
+
+1.41 *
+
+Adott hosszéságé munkadarabok közül választassuk ki a  robo t-
+tal a legkisebbet (legnagyobbat)!
+
+
+1.42 **
+
++llítsuk a gyerekeket magasság szerint csökkenő sorba!
+
+
+1.43 *
+
++llítsuk sorba a gyerekeket!  Írjunk algoritmust, amelyben  a
+robot megmondja, hogy
+
+1. hány helyről jöttek a diákok,
+2. állítsa külö n -külön az egy helyről jövőket!
+
+
+1.44 **
+
+A robot rágógumit árul. Tálcán (vagy asztalon) egymás melle t-
+ti rekeszekben fajtánként van elhelyezve az  áru,  amely  N A-
+RANCS, CITROM, ANA N +SZ és MENTOL ízesítésű lehet. A  rekeszek
+alá írt számokkal jelezzük, melyikből hány darab van.
+
+X  X  X  X  X  X  X  X  X
+X     X     X     X     X
+X  N  X  C  X  A  X  M  X
+X     X     X     X     X
+X  X  X  X  X  X  X  X  X
+
+1     1     3     5
+
+Három jóbarát (I ,II ,III) érkezik az árushoz. Tudjuk, hogy m e-
+lyik milyen fajtát szeret:
+
+I    N A
+II   N M
+III  N
+
+Mindegyikőjüknek az ízlése szerinti rágógumit kell  adni,  ha
+lehetséges!
+
+
+1.45
+
+Vigyük körbe Kareszt egy 10  egység  oldalhosszéságé  négyzet
+mentén!
+
+
+1.46
+
+Legyen Karesz világa olyan mező, amelyben vízszintesen bará z-
+dák futnak! (A barázdák a soroknak felelnek meg.)  Vettessünk
+be Karesszal egy 16 barázdából  álló  mezőt  soronként  1 6 -16
+szem burgonyával!
+
+
+1.47
+
+Tanítsuk meg Kareszt az ábrán látható alak megrajzolására!
+
+17 . . . . . . . . . . . . o o o .
+16 . . . . . o o o o o . . o . o .
+15 . . . . . o . . . o . . o o o .
+14 . . . . . o . . . o . . o . . .
+13 . . . . . o o . o o . o o o . .
+12 . . . . . . o . o . . o . o . .
+11 . o o o o o o . o o o o . o . .
+10 . o . . . . . . . . . . . o . .
+9 . o . o o o . . . o o o o o . .
+8 . o . o . o . . . o . . . o . .
+7 . o . o o o . . . o . . . . . .
+6 . . . . . o . . . o . . . . . .
+5 . . . o o o . . . o o o . . . .
+4 . . . o . . . . . . . o . . . .
+3 . . . o . . o o o . . o . . . .
+2 . . . o . . o . o . . o . . . .
+1 . . . o o o o . o o o o . . . .
+
+1 1 1 1 1 1 1
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6
+
+
+1.48
+
+Rajzoltassuk meg Karesszal egy ház
+
+1. homlokzati képét,
+2. alaprajzát!
+
+
+1.49
+
+Karesz Fordulj jobbra és Fordulj balra nevű algoritmusai  k ö-
+zül fejezzük ki az egyiket a másikkal!
+
+
+1.50
+
+Karesz a képen látható utcában (az alsó sorban) hordja ki  az
+éjságokat. Ez jelentse azt, hogy a bejáratokhoz lerak eg y -egy
+kavicsot.
+
+X X X X X X X X X X X X X X X X
+X X . X X . X . X . X X X . X X
+X X . X X . X . X . X X X . X X
+. . . . . . . . . . . . . . . .
+
+
+1.51
+
+Karesz hétvégi telket vásárolt, amelyet  gyümölcsfákkal tel e-
+pítene be. Két gyümölcsfa távolsága nem lehet kisebb 3 lépé s-
+nél, a sorok közötti távolság 4 lépés. Tanítsuk meg Kareszt a
+fák elültetésére!
+
+
+1.52
+
+Tekintsük Karesz világát egy gyümölcsösnek, amely  kerítéssel
+(kavicsokkal) van körülvéve. A gyümölcsösben  levő  Karesszal
+kerestessük meg a kijáratot!
+
+
+1.53
+
+Egy akadálypályán különböző  (kavicsokból  álló)  akadályokat
+kell kikerülni.
+
+1. Vigyük végig Kareszt az akadálypályán!
+2. Módosítsuk égy az algoritmust,  hogy  Karesz  az előtte
+álló akadályt, ha van hely, jobbra eltolhassa!
+
+
+1.54
+
+Karesz otthon heverészik az ágyban, orral nyugat felé.  Ház á-
+nak külső fala előtt fekszik az éjság, kavics képében.  Hozza
+be Karesz a reggeli lapot!
+
+
+1.55 *
+
+Legyen Karesz világa most egy tó, benne egy kavics  egy  fu l-
+dokló! Készítsünk algoritmust a mentésre!
+
+
+1.56 **
+
+Legyen Karesz világa egy tó;  benne  kavicsokból  létrehozott
+zátonyok:
+
+1. Döntsük el, hogy egy adott sorban va n -e zátony!
+2. Számoljuk meg, egy sorban hány zátony van!
+3. Számoljuk meg, összesen hány zátony van!
+4. Keressük meg azokat a sorokat, ahol nincsen zátony!
+5. Adjuk meg,  melyik sorban van a  legtöbb  (legkevesebb)
+zátony!
+6. Adjuk meg,  melyik sorban van a legnagyobb  (legkisebb)
+zátony!
+7. Rendezzük zátonyszám szerint a sorokat!
+
+
+1.57 *
+
+Képzeljük Kareszt egy labirintus  közepébe!  Írjunk  algorit-
+must, amely alapján kijuthat a labirintusból!
+
+17 X X X X X X X X X X X X X X X X
+16 X . . . . . X X . . . . . . . X
+15 X . X X X . . . . X . X . X . X
+14 X . X . X . X X . X . X . X . X
+13 X . X . X . X . . X . X . X . X
+12 X . X . X . X X X X X X . X . X
+11 X . X . X . X . . . . . . X . X
+10 X . X . . . X X X X X X X X . X
+9 X . X X X X X X . . . > X . . X
+8 X . . . . . X X . X X X X . X X
+7 X X X X X . X . . X . . . . . .
+6 X . . . X . . . . X X . X X X X
+5 X . X . X . X X X X . . X . . X
+4 X . X . . . . . . X . X X X . X
+3 X . X . X X X X . X . . X X . X
+2 X . X . . . . X . X X . . . . X
+1 X X X X X X X X X X X X X X X X
+
+1 1 1 1 1 1 1
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6

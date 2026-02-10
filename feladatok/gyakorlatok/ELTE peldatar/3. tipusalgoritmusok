@@ -1,0 +1,1412 @@
+3.000-A
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Hány eleme van a sorozatnak?
+2. Van-e a sorozatban negatív szám?
+3. Hány páros szám található a sorozatban?
+4. Mennyi a sorozatban található legnagyobb szám?
+5. Írjuk ki a sorozatban található 10-zel osztható számokat!
+6. Írjuk ki az első 29-cel osztható szám indexét!
+7. Igaz-e, hogy minden szám páros?
+8. Mennyi a sorozatban található számok átlaga?
+9. Van-e a sorozatban olyan negatív szám, amelyet nulla követ?
+10. Írjuk ki az utolsó 17-tel osztható szám indexét!
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+
+ 3.000-B
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Van-e a sorozatban pozitív szám?
+2. Hány eleme van a sorozatnak?
+3. Mennyi a sorozatban található legkisebb szám?
+4. Írjuk ki az első 33-mal osztható szám indexét!
+5. Mennyi a sorozatban található számok átlagának a fele?
+6. Igaz-e, hogy minden szám pozitív?
+7. Hány páratlan szám található a sorozatban?
+8. Van-e a sorozatban olyan negatív szám, amelyet újabb negatív követ?
+9. Írjuk ki az utolsó 19-cel osztható szám indexét!
+10. Írjuk ki a sorozatban található 5-tel osztható számokat!
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+
+ 3.000-C
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Van-e a sorozatban 100-zal osztható szám?
+2. Írjuk ki az utolsó 7-tel osztható szám indexét!
+3. Írjuk ki az első 19-cel osztható szám indexét!
+4. Mennyi a sorozatban található számok átlagának a négyzete?
+5. Igaz-e, hogy minden szám nagyobb, mint 10?
+6. Hány 9-cel osztható szám található a sorozatban?
+7. Írjuk ki a sorozatban található 15-tel osztható számok felét!
+8. Hány eleme van a sorozatnak?
+9. Van-e a sorozatban olyan negatív szám, amelyet pozitív követ?
+10. Mennyi a sorozatban található legkisebb szám fele?
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+3.000-D
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Mennyi a sorozatban található számok szorzata?
+2. Írjuk ki az utolsó 5-tel vagy 7-tel osztható szám indexét!
+3. Írjuk ki az első 3-mal és 7-tel osztható szám indexét!
+4. Igaz-e, hogy minden szám negatív?
+5. Van-e a sorozatban olyan szám, amelyik 1 és 10 közé esik?
+6. Hány 18-cal osztható szám található a sorozatban?
+7. Mennyi a sorozatban található egyik legkisebb szám indexe?
+8. Írjuk ki a sorozatban található 17-tel vagy 18-cal osztható számok négyzetét!
+9. Hány eleme van a sorozatnak?
+10. Van-e a sorozatban olyan negatív szám, amelynek az összes szomszédja pozitív?
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+
+ 3.000-E
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Hány eleme van a sorozatnak?
+2. Írjuk ki az utolsó 9-cel vagy 3-mal osztható szám indexét!
+3. Írjuk ki az első 3-mal és 5-tel osztható szám indexét!
+4. Igaz-e, hogy minden szám (-10,10) nyilt intervallumba esik?
+5. Mennyi a sorozatban található számok szorzatának kétszerese?
+6. Hány 18-cal és 6-tal osztható szám található a sorozatban?
+7. Írjuk ki a sorozatban található 17-tel vagy 18-cal osztható számok köbét!
+8. Mennyi a sorozatban található második legkisebb szám?
+9. Van-e a sorozatban négyzetszám?
+10. Van-e a sorozatban olyan negatív szám, amelynek az összes szomszédja nulla?
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+
+ 3.000-F
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Írjuk ki a sorozatban található 17-tel és -17-tel osztható számok harmadát!
+2. Írjuk ki az utolsó 9-cel vagy 25-tel osztható szám négyzetgyökét!
+3. Írjuk ki az első 3-mal vagy 5-tel osztható szám indexét!
+4. Igaz-e, hogy minden szám (0,20) nyilt intervallumba esik?
+5. Van-e a sorozatban olyan negatív szám, amelynek az összes szomszédja nulla?
+6. Hány 18-cal vagy 6-tal osztható szám található a sorozatban?
+7. Hány eleme van a sorozatnak?
+8. Mennyi a sorozatban található második legnagyobb szám?
+9. Van-e a sorozatban köbszám?
+10. Mennyi a sorozatban található számok szorzatának a fele?
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+
+ 3.000-G
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Hány eleme van a sorozatnak?
+2. Írjuk ki az utolsó [-10,10] zárt intervallumba eső szám indexét!
+3. Igaz-e, hogy minden szám 100-nál kisebb?
+4. Írjuk ki az első 3-mal és 5-tel osztható számot!
+5. Mennyi a sorozatban található számok számtani közepe?
+6. Van-e a sorozatban köbszám?
+7. Írjuk ki a sorozatban található négyzetszámok négyzetgyökét!
+8. Van-e a sorozatban olyan negatív szám, amelyet két nulla követ?
+9. Igaz-e, hogy a sorozat szigorúan monoton növő?
+10. Mennyi a sorozatban található második legnagyobb szám?
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+
+ 3.000-H
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Írjuk ki a sorozatban található utolsó négyzetszámot!
+2. Írjuk ki  a sorozatban található első köbszám indexét!
+3. Mennyi a sorozatban található számok számtani közepe?
+4. Mennyi a sorozatban található legátlagosabb szám? (legkevésbé tér el az átlagtól)
+5. Írjuk ki a sorozatban található négyzetszámok négyzetgyökét!
+6. Van-e a sorozatban olyan negatív szám, amelyet két nulla is megelőz?
+7. Hány eleme van a sorozatnak?
+8. Igaz-e, hogy minden szám [0,100] zárt intervallumba esik?
+9. Igaz-e, hogy a sorozat monoton növő?
+10. Van-e a sorozatban kettő hatvány?
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+
+ 3.000-I
+Olvassuk be az alábbi fájl tartalmmát egy listába/tömbbe,
+majd a következő feladatokat oldjuk meg.
+Minden feladat előtt a program írja ki a feladat sorszámát!
+1. Írjuk ki a sorozatban található utolsó köbszámot!
+2. Hány eleme van a sorozatnak?
+3. Mennyi a sorozatban található számok közti diferencia összege?
+4. Van-e a sorozatban olyan szám, amely osztható az indexével?
+5. Igaz-e, hogy a sorozat egy számtani sorozat?
+6. Írjuk ki a sorozatban található első négyzetszám négyzetét!
+7. Van-e a sorozatban prímszám?
+8. Igaz-e, hogy minden szám (-50,50) nyílt intervallumba esik?
+9. Írjuk ki a sorozatban található prímszámokat!
+10. Mennyi a sorozatban található legátlagosabb szám? (legkevésbé tér el az átlagtól)
+Input:
+[-14, 23, 1, -48, -43, 28, -77, -33, -95, 38, -9, 98, -61, 58, 21, 87, 41, -65, -22, -20, -56, -75, 80, -77, 100, 67, 22, 8, -78, -6]
+
+
+ 3.000-J
+
+Az input fájl egy osztály névsorát, különböző tanulócsoportokba történő beosztását és
+néhány egyéb adatát tartalmazza. Az egyes adatelemeket pontosvessző választja el.
+
+Az egyes oszlopok jelentése a következő:
+   - tanulokod(szám)
+   - diákok neve (szöveg)
+   - matematika és informatika szerinti csoportbeosztás (szöveg)
+   - angol csoportok szerinti besorolás, a szint és tanár megjelölésével (szöveg)
+   - választott 2. idegen nyelv (szöveg)
+   - a diák neme, testnevelés szerinti bontás (szöveg)
+   - a családban együttlakók száma (szám)
+   - testvérek száma (szám)
+
+1) Hány diák tanul az osztályban?
+2) Hány fiú tanul az osztályban?
+3) Hány lány tanul az osztályban?
+4) Hány olyan diák van, akiknek több mint 1 testvére van!
+5) Gyűjtse ki azon diákok nevét, akiknek több mint 1 testvérük van!
+6) Hány olyan diák van, akiknek több mint 2 testvére van!
+7) Gyűjtse ki azon diákok nevét, akiknek több mint 2 testvérük van!
+8) Hány olyan diák van, akik a 2. idegen nyelvként a németet tanulják!
+9) Gyűjtse ki azon fiú diákok nevét, akik a 2. idegen nyelvként a németet tanulják!
+10) Hány diák tanul, az egyes angol csoportban?
+11) Hány diák tanul, a kettes angol csoportban?
+12) Hány diák tanul, az alfa matematika csoportban?
+13) Hány diák tanul, az beta matematika csoportban?
+14) Hány lány diák tanul, az alfa matematika csoportban?
+15) Hány lány diák tanul, a beta matematika csoportban?
+16) Hány fiú diák tanul, az alfa matematika csoportban?
+17) Hány fiú diák tanul, a beta matematika csoportban?
+18) Van-e olyan diák, aki a 2. idegen nyelvként oroszt tanul?
+19) Van-e olyan diák, aki a 2. idegen nyelvként olaszt tanul?
+20) Van-e olyan diák, aki a 2. idegen nyelvként spanyolt tanul?
+21) Mekkora a legnagyobb család az osztályban?
+22) Írjuk ki az egyik olyan diák nevét akinek e legtöbb testvére van!
+23) Gyűjtse ki azon lány diákok nevét, akik az egyes vagy kettes angol csoportban vannak!
+24) Gyűjtse ki azon fiú diákok nevét, akik a hármas vagy négyes angol csoportban vannak
+    és 0 vagy 2 testvérük van!
+25) Viszonylag kevés azon családok száma, ahol az együttlakók száma és a testvérek száma
+    között nem három a különbség. Adja meg a számukat!
+26) Dári Dóra hiányzott a legutóbbi angol órán, szeretné bepótolni a hiányzást. Adja meg
+    azon tanulók nevét, akik vele azonos angol csoportba járnak.
+27) Avon Mór hiányzott a legutóbbi angol órán, szeretné bepótolni a hiányzást. Adja meg
+    azon tanulók nevét, akik vele azonos angol csoportba járnak.
+28) Zúz Mara hiányzott a legutóbbi angol órán, szeretné bepótolni a hiányzást. Adja meg
+    azon tanulók nevét, akik vele azonos angol csoportba járnak.
+29) Citad Ella hiányzott a legutóbbi angol órán, szeretné bepótolni a hiányzást. Adja meg
+    azon tanulók nevét, akik vele azonos angol csoportba járnak.
+30) Hát Izsák hiányzott a legutóbbi angol órán, szeretné bepótolni a hiányzást. Adja meg
+    azon tanulók nevét, akik vele azonos angol csoportba járnak.
+31) A spanyol vagy a német nyelvet tanulják-e többben az osztáyban?
+32) Kérjen be a felhasználótól egy nyelvet és írja ki, az adott nyelvet tanulók névsorát!
+
+Input:
+1;Avon Mór;alfa;4. Kis;német;F;4;1
+2;Bakt Ernő;alfa;4. Kis;spanyol;F;4;1
+3;Bal Margó;alfa;4. Kis;spanyol;L;2;0
+4;Bekre Pál;alfa;4. Kis;spanyol;F;4;1
+5;Citad Ella;beta;1. Sió;spanyol;L;3;0
+6;Daj Kálmán;alfa;2. Bán;német;F;3;0
+7;Dári Dóra;beta;1. Sió;spanyol;L;2;0
+8;Emanci Pál;beta;3. Joó;spanyol;F;5;2
+9;Feles Elek;alfa;2. Bán;német;F;3;0
+10;Git Áron;beta;3. Joó;német;F;5;2
+11;Halo Lajos;alfa;4. Kis;német;F;5;2
+12;Hát Izsák;beta;3. Joó;német;F;4;1
+13;Heu Réka;beta;1. Sió;német;L;3;0
+14;Hot Elek;alfa;4. Kis;spanyol;F;5;2
+15;Illemta Nóra;alfa;4. Kis;spanyol;L;3;0
+16;Ka Pál;alfa;4. Kis;spanyol;F;5;2
+17;Kor Mihály;alfa;2. Bán;spanyol;F;3;0
+18;Lapos Elemér;alfa;4. Kis;spanyol;F;4;1
+19;Major Anna;alfa;4. Kis;német;L;2;0
+20;Malt Ernő;beta;1. Sió;spanyol;F;4;1
+21;Mángor Olga;beta;3. Joó;német;L;4;1
+22;Meg Győző;beta;3. Joó;spanyol;F;5;2
+23;Mérta Nóra;beta;1. Sió;spanyol;L;3;1
+24;Ne Pál;beta;1. Sió;német;F;3;1
+25;Ordy Bálint;alfa;2. Bán;német;F;4;1
+26;Öröm Melitta;beta;3. Joó;német;L;4;1
+27;Parady Csoma;alfa;4. Kis;spanyol;F;4;1
+28;Patkóm Ágnes;alfa;2. Bán;német;L;6;3
+29;Patta Nóra;alfa;4. Kis;spanyol;L;5;1
+30;Rö Vid;beta;1. Sió;német;F;4;1
+31;Szikla Szilárd;alfa;4. Kis;német;F;3;0
+32;Szüre Tibor;beta;3. Joó;német;F;4;1
+33;Teo Dóra;beta;3. Joó;spanyol;L;4;1
+34;Vagd Alma;beta;3. Joó;német;L;4;1
+35;Veg Eta;beta;1. Sió;spanyol;L;3;0
+36;Zúz Mara;beta;3. Joó;német;L;5;2
+
+
+3.000-K
+
+Az input fájl a labdarugó-világbajnokságon résztvevő csapatok helyezéseit tartalmazza.
+Az egyes adatelemeket tabulátor választja el.
+
+Az egyes oszlopok jelentése a következő:
+   - sorszám
+   - résztvevő csapat (ország)
+   - az elért helyezés
+   - a világbajnokság éve
+   - a világbajnokság helyszíne
+
+1)	Írja ki Magyarország által elért helyezéseket. A kiírásban jelenjen meg a vb éve és helyszíne is.
+2)	Írja ki Anglia által elért helyezéseket. A kiírásban jelenjen meg a vb éve és helyszíne is.
+3)	Írja ki Chile által elért helyezéseket. A kiírásban jelenjen meg a vb éve és helyszíne is.
+4)	Írja ki Peru által elért helyezéseket. A kiírásban jelenjen meg a vb éve és helyszíne is.
+5)	Írja ki Mongólia által elért helyezéseket. A kiírásban jelenjen meg a vb éve és helyszíne is.
+6)	A program olvasson be egy csapat nevet és írja ki a csapat álta elért helyezéseket. A kiírásban jelenjen meg a vb éve és helyszíne is.
+7)	A program írja ki, hogy az '30-es években kik lettek a világbajnokok! Az ország neve mellett szerepeljen az évszám is.
+8)	A program írja ki, hogy az '40-es években kik lettek a világbajnokok! Az ország neve mellett szerepeljen az évszám is.
+9)	A program írja ki, hogy az '50-es években kik lettek a világbajnokok! Az ország neve mellett szerepeljen az évszám is.
+10)	A program írja ki, hogy az '60-es években kik lettek a világbajnokok! Az ország neve mellett szerepeljen az évszám is.
+11)	A program írja ki, hogy az '70-es években kik lettek a világbajnokok! Az ország neve mellett szerepeljen az évszám is.
+12)	A program írja ki, hogy az '80-es években kik lettek a világbajnokok! Az ország neve mellett szerepeljen az évszám is.
+13)	Írja ki Magyarország hányszor jutott ki a vb-re a fájl által tartalmazott időszakban!
+14)	Írja ki Anglia hányszor jutott ki a vb-re a fájl által tartalmazott időszakban!
+15)	Írja ki Chile hányszor jutott ki a vb-re a fájl által tartalmazott időszakban!
+16)	Írja ki Peru hányszor jutott ki a vb-re a fájl által tartalmazott időszakban!
+17)	Írja ki Mongólia hányszor jutott ki a vb-re a fájl által tartalmazott időszakban!
+18)	A program olvasson be egy csapat nevet és írja ki, a csapat hányszor jutott ki a vb-re a fájl által tartalmazott időszakban!
+19)	Melyik csapat nyert 1930-ban?
+20)	Melyik csapat nyert 1940-ben?
+21)	Melyik csapat nyert 1950-ben?
+22)	Melyik csapat nyert 1960-ban?
+23)	Melyik csapat nyert 1970-ben?
+24)	Hányszor kapott ki a döntőben Magyarország?
+25)	Hányszor kapott ki a döntőben Mongólia?
+26)	Hányszor kapott ki a döntőben Svájc?
+27)	Hányszor kapott ki a döntőben Brazília?
+28)	Hányszor kapott ki a döntőben Németország?
+29)	Hányszor kapott ki a döntőben Argentína?
+30)	A programm olvasson be évszámot és írja ki, hogy melyik csapat nyert az adott évben?
+31)	Az adatfájl szerint mikor volt a legkorábbi vb?
+32)	Magyarország hányszor nyert vb-t?
+33)	Anglia hányszor nyert vb-t?
+34)	Chile hányszor nyert vb-t?
+35)	Peru hányszor nyert vb-t?
+36)	Mongólia hányszor nyert vb-t?
+37)	Írd ki Magyarország vb-n elért legjobb helyezését!
+38)	Írd ki Anglia vb-n elért legjobb helyezését!
+39)	Írd ki Chile vb-n elért legjobb helyezését!
+40)	Írd ki Peru vb-n elért legjobb helyezését!
+41)	Írd ki Mongólia vb-n elért legjobb helyezését!
+42)	A program olvasson be egy csapat nevet és írja ki, a csapat vb-n elért legjobb helyezését!
+43)	A program olvasson be egy csapat nevet és írja ki, a csapat hányszor nyert vb-t!
+44)	Melyik csapatok nyertek az Angiában rendezett vb-ken? A csapatok neve mellett az évszámot is írja ki!
+45)	Melyik csapatok nyertek a Magyarországon rendezett vb-ken? A csapatok neve mellett az évszámot is írja ki!
+46)	Melyik csapatok nyertek a Németországban rendezett vb-ken? A csapatok neve mellett az évszámot is írja ki!
+47)	Melyik csapatok nyertek az Brazíliában rendezett vb-ken? A csapatok neve mellett az évszámot is írja ki!
+48)	Melyik csapatok nyertek az Egyesült Államok rendezett vb-ken? A csapatok neve mellett az évszámot is írja ki!
+49)	A program olvasson be egy ország nevet és írja ki, melyik csapatok nyertek az adott helyszínen! A csapatok neve mellett az évszámot is írja ki!
+50)	Melyik csapat nyerte a vb-t, amikor Magyarország dobogós helyzést ért el? A győzetes csapatok neve mellett az évszámot is írja ki!
+51)	Melyik csapat nyerte a vb-t, amikor Brazília dobogós helyzést ért el? A győzetes csapatok neve mellett az évszámot is írja ki!
+52)	Melyik csapat nyerte a vb-t, amikor Argentína dobogós helyzést ért el? A győzetes csapatok neve mellett az évszámot is írja ki!
+53)	Kikkel játszott döntőt Magyarország? Az ellenfél csapat neve mellett az évszámot is írja ki!
+54)	Kikkel játszott döntőt Mongólia? Az ellenfél csapat neve mellett az évszámot is írja ki!
+55)	Kikkel játszott döntőt Svájc? Az ellenfél csapat neve mellett az évszámot is írja ki!
+56)	Kikkel játszott döntőt Barzília? Az ellenfél csapat neve mellett az évszámot is írja ki!
+57)	A program olvasson be egy ország nevet és írja ki, kikkel játszott döntőt az illető csapat? Az ellenfél csapat neve mellett az évszámot is írja ki!
+58)	Melyik csapat nyert többször is vb-t?
+59)	Melyik országban rendeztek többször is vb-t?
+60)	Melyik csapat(ok) nyert a legtöbbször vb-t? A csapat neve mellett a vb gyözelmmek számát is írja ki!
+61)	Melyik ország(ok) rendezett legtöbbször vb-t? A csapat neve mellett a vb-k számát is írja ki!
+62)	Melyik csapat(ok) kapott ki a legtöbbször a döntőben? A csapat neve mellett a vereségek számát is írja ki!
+
+Input:
+1	Anglia	1	1966	Anglia
+2	Németország	2	1966	Anglia
+3	Portugália	3	1966	Anglia
+4	Szovjetunió	4	1966	Anglia
+5	Argentína	5	1966	Anglia
+6	Magyarország	6	1966	Anglia
+7	Uruguay	7	1966	Anglia
+8	Koreai NDK	8	1966	Anglia
+9	Olaszország	9	1966	Anglia
+10	Spanyolország	10	1966	Anglia
+11	Brazília	11	1966	Anglia
+12	Mexikó	12	1966	Anglia
+13	Chile	13	1966	Anglia
+14	Franciaország	13	1966	Anglia
+15	Bulgária	15	1966	Anglia
+16	Svájc	16	1966	Anglia
+17	Argentína	1	1978	Argentína
+18	Hollandia	2	1978	Argentína
+19	Brazília	3	1978	Argentína
+20	Olaszország	4	1978	Argentína
+21	Lengyelország	5	1978	Argentína
+22	Németország	6	1978	Argentína
+23	Ausztria	7	1978	Argentína
+24	Peru	8	1978	Argentína
+25	Tunézia	9	1978	Argentína
+26	Spanyolország	10	1978	Argentína
+27	Skócia	11	1978	Argentína
+28	Franciaország	12	1978	Argentína
+29	Svédország	13	1978	Argentína
+30	Irán	14	1978	Argentína
+31	Magyarország	15	1978	Argentína
+32	Mexikó	16	1978	Argentína
+33	Uruguay	1	1950	Brazília
+34	Brazília	2	1950	Brazília
+35	Svédország	3	1950	Brazília
+36	Spanyolország	4	1950	Brazília
+37	Svájc	6	1950	Brazília
+38	Olaszország	7	1950	Brazília
+39	Anglia	8	1950	Brazília
+40	Jugoszlávia	8	1950	Brazília
+41	Chile	9	1950	Brazília
+42	Egyesült Államok	10	1950	Brazília
+43	Paraguay	11	1950	Brazília
+44	Mexikó	12	1950	Brazília
+45	Bolívia	13	1950	Brazília
+46	Brazília	1	1962	Chile
+47	Csehszlovákia	2	1962	Chile
+48	Chile	3	1962	Chile
+49	Jugoszlávia	4	1962	Chile
+50	Magyarország	5	1962	Chile
+51	Szovjetunió	6	1962	Chile
+52	Németország	7	1962	Chile
+53	Anglia	8	1962	Chile
+54	Olaszország	9	1962	Chile
+55	Argentína	10	1962	Chile
+56	Mexikó	11	1962	Chile
+57	Uruguay	12	1962	Chile
+58	Spanyolország	13	1962	Chile
+59	Kolumbia	14	1962	Chile
+60	Bulgária	15	1962	Chile
+61	Svájc	16	1962	Chile
+62	Brazília	1	1994	Egyesült Államok
+63	Olaszország	2	1994	Egyesült Államok
+64	Svédország	3	1994	Egyesült Államok
+65	Németország	5	1994	Egyesült Államok
+66	Románia	6	1994	Egyesült Államok
+67	Hollandia	7	1994	Egyesült Államok
+68	Spanyolország	8	1994	Egyesült Államok
+69	Nigéria	9	1994	Egyesült Államok
+70	Argentína	10	1994	Egyesült Államok
+71	Belgium	11	1994	Egyesült Államok
+72	Szaúd-Arábia	12	1994	Egyesült Államok
+73	Algéria	13	1994	Egyesült Államok
+74	Mexikó	13	1994	Egyesült Államok
+75	Egyesült Államok	14	1994	Egyesült Államok
+76	Svájc	15	1994	Egyesült Államok
+77	Írország	16	1994	Egyesült Államok
+78	Norvégia	17	1994	Egyesült Államok
+79	Oroszország	18	1994	Egyesült Államok
+80	Kolumbia	19	1994	Egyesült Államok
+81	Koreai Közt	20	1994	Egyesült Államok
+82	Bolívia	21	1994	Egyesült Államok
+83	Kamerun	22	1994	Egyesült Államok
+84	Marokkó	23	1994	Egyesült Államok
+85	Görögország	24	1994	Egyesült Államok
+86	Bulgária	29	1994	Egyesült Államok
+87	Franciaország	1	1998	Franciaország
+88	Olaszország	1	1938	Franciaország
+89	Brazília	2	1998	Franciaország
+90	Magyarország	2	1938	Franciaország
+91	Brazília	3	1938	Franciaország
+92	Horvátország	3	1998	Franciaország
+93	Hollandia	4	1998	Franciaország
+94	Svédország	4	1938	Franciaország
+95	Csehszlovákia	5	1938	Franciaország
+96	Olaszország	5	1998	Franciaország
+97	Argentína	6	1998	Franciaország
+98	Franciaország	6	1938	Franciaország
+99	Németország	7	1998	Franciaország
+100	Svájc	7	1938	Franciaország
+101	Dánia	8	1998	Franciaország
+102	Kuba	8	1938	Franciaország
+103	Anglia	9	1998	Franciaország
+104	Románia	9	1938	Franciaország
+105	Jugoszlávia	10	1998	Franciaország
+106	Németország	10	1938	Franciaország
+107	Lengyelország	11	1938	Franciaország
+108	Románia	11	1998	Franciaország
+109	Nigéria	12	1998	Franciaország
+110	Norvégia	12	1938	Franciaország
+111	Belgium	13	1938	Franciaország
+112	Mexikó	13	1998	Franciaország
+113	Hollandia	14	1938	Franciaország
+114	Paraguay	14	1998	Franciaország
+115	Holland India	15	1938	Franciaország
+116	Norvégia	15	1998	Franciaország
+117	Chile	16	1998	Franciaország
+118	Spanyolország	17	1998	Franciaország
+119	Marokkó	18	1998	Franciaország
+120	Belgium	19	1998	Franciaország
+121	Irán	20	1998	Franciaország
+122	Kolumbia	21	1998	Franciaország
+123	Algéria	22	1998	Franciaország
+124	Jamaica	22	1998	Franciaország
+125	Ausztria	23	1998	Franciaország
+126	Dél-Afrika	24	1998	Franciaország
+127	Kamerun	25	1998	Franciaország
+128	Tunézia	26	1998	Franciaország
+129	Skócia	27	1998	Franciaország
+130	Szaúd-Arábia	28	1998	Franciaország
+131	Koreai Közt	30	1998	Franciaország
+132	Japán	31	1998	Franciaország
+133	Egyesült Államok	32	1998	Franciaország
+134	Brazília	1	2002	Japán-Dél Korea
+135	Németország	2	2002	Japán-Dél Korea
+136	Törökország	3	2002	Japán-Dél Korea
+137	Koreai Közt	4	2002	Japán-Dél Korea
+138	Anglia	5	2002	Japán-Dél Korea
+139	Egyesült Államok	5	2002	Japán-Dél Korea
+140	Spanyolország	5	2002	Japán-Dél Korea
+141	Szenegál	5	2002	Japán-Dél Korea
+142	Belgium	9	2002	Japán-Dél Korea
+143	Dánia	9	2002	Japán-Dél Korea
+144	Írország	9	2002	Japán-Dél Korea
+145	Japán	9	2002	Japán-Dél Korea
+146	Mexikó	9	2002	Japán-Dél Korea
+147	Olaszország	9	2002	Japán-Dél Korea
+148	Paraguay	9	2002	Japán-Dél Korea
+149	Svédország	9	2002	Japán-Dél Korea
+150	Argentína	17	2002	Japán-Dél Korea
+151	Costa Rica	17	2002	Japán-Dél Korea
+152	Dél-Afrika	17	2002	Japán-Dél Korea
+153	Ecuador	17	2002	Japán-Dél Korea
+154	Franciaország	17	2002	Japán-Dél Korea
+155	Horvátország	17	2002	Japán-Dél Korea
+156	Kamerun	17	2002	Japán-Dél Korea
+157	Kína	17	2002	Japán-Dél Korea
+158	Lengyelország	17	2002	Japán-Dél Korea
+159	Nigéria	17	2002	Japán-Dél Korea
+160	Oroszország	17	2002	Japán-Dél Korea
+161	Portugália	17	2002	Japán-Dél Korea
+162	Szaúd-Arábia	17	2002	Japán-Dél Korea
+163	Szlovénia	17	2002	Japán-Dél Korea
+164	Tunézia	17	2002	Japán-Dél Korea
+165	Uruguay	17	2002	Japán-Dél Korea
+166	Argentína	1	1986	Mexikó
+167	Brazília	1	1970	Mexikó
+168	Németország	2	1986	Mexikó
+169	Olaszország	2	1970	Mexikó
+170	Franciaország	3	1986	Mexikó
+171	Németország	3	1970	Mexikó
+172	Belgium	4	1986	Mexikó
+173	Uruguay	4	1970	Mexikó
+174	Brazília	5	1986	Mexikó
+175	Szovjetunió	5	1970	Mexikó
+176	Mexikó	6	1970	Mexikó
+177	Mexikó	6	1986	Mexikó
+178	Peru	7	1970	Mexikó
+179	Spanyolország	7	1986	Mexikó
+180	Anglia	8	1970	Mexikó
+181	Anglia	8	1986	Mexikó
+182	Dánia	9	1986	Mexikó
+183	Svédország	9	1970	Mexikó
+184	Belgium	10	1970	Mexikó
+185	Románia	10	1970	Mexikó
+186	Szovjetunió	10	1986	Mexikó
+187	Marokkó	11	1986	Mexikó
+188	Izrael	12	1970	Mexikó
+189	Olaszország	12	1986	Mexikó
+190	Bulgária	13	1970	Mexikó
+191	Paraguay	13	1986	Mexikó
+192	Lengyelország	14	1986	Mexikó
+193	Marokkó	14	1970	Mexikó
+194	Bulgária	15	1986	Mexikó
+195	Csehszlovákia	15	1970	Mexikó
+196	Salvador	16	1970	Mexikó
+197	Uruguay	16	1986	Mexikó
+198	Portugália	17	1986	Mexikó
+199	Magyarország	18	1986	Mexikó
+200	Skócia	19	1986	Mexikó
+201	Koreai Közt	20	1986	Mexikó
+202	Peru	20	1986	Mexikó
+203	Észak-Írország	21	1986	Mexikó
+204	Irak	23	1986	Mexikó
+205	Kanada	24	1986	Mexikó
+206	Németország	1	1974	Németország
+207	Hollandia	2	1974	Németország
+208	Lengyelország	3	1974	Németország
+209	Brazília	4	1974	Németország
+210	Svédország	5	1974	Németország
+211	Német DK	6	1974	Németország
+212	Jugoszlávia	7	1974	Németország
+213	Argentína	8	1974	Németország
+214	Skócia	9	1974	Németország
+215	Olaszország	10	1974	Németország
+216	Chile	11	1974	Németország
+217	Bulgária	12	1974	Németország
+218	Uruguay	13	1974	Németország
+219	Ausztrália	14	1974	Németország
+220	Haiti	15	1974	Németország
+221	Zaire	16	1974	Németország
+222	Németország	1	1990	Olaszország
+223	Olaszország	1	1934	Olaszország
+224	Argentína	2	1990	Olaszország
+225	Csehszlovákia	2	1934	Olaszország
+226	Németország	3	1934	Olaszország
+227	Olaszország	3	1990	Olaszország
+228	Anglia	4	1990	Olaszország
+229	Ausztria	4	1934	Olaszország
+230	Bulgária	4	1990	Olaszország
+231	Jugoszlávia	5	1990	Olaszország
+232	Spanyolország	5	1934	Olaszország
+233	Csehszlovákia	6	1990	Olaszország
+234	Magyarország	6	1934	Olaszország
+235	Kamerun	7	1990	Olaszország
+236	Svájc	7	1934	Olaszország
+237	Írország	8	1990	Olaszország
+238	Svédország	8	1934	Olaszország
+239	Argentína	9	1934	Olaszország
+240	Brazília	9	1990	Olaszország
+241	Franciaország	9	1934	Olaszország
+242	Hollandia	9	1934	Olaszország
+243	Spanyolország	10	1990	Olaszország
+244	Belgium	11	1990	Olaszország
+245	Románia	12	1934	Olaszország
+246	Románia	12	1990	Olaszország
+247	Costa Rica	13	1990	Olaszország
+248	Egyiptom	13	1934	Olaszország
+249	Brazília	14	1934	Olaszország
+250	Kolumbia	14	1990	Olaszország
+251	Belgium	15	1934	Olaszország
+252	Hollandia	15	1990	Olaszország
+253	Egyesült Államok	16	1934	Olaszország
+254	Uruguay	16	1990	Olaszország
+255	Szovjetunió	17	1990	Olaszország
+256	Ausztria	18	1990	Olaszország
+257	Skócia	18	1990	Olaszország
+258	Egyiptom	20	1990	Olaszország
+259	Svédország	21	1990	Olaszország
+260	Koreai Közt	22	1990	Olaszország
+261	Egyesült Államok	23	1990	Olaszország
+262	Arab Emírségek	24	1990	Olaszország
+263	Olaszország	1	1982	Spanyolország
+264	Németország	2	1982	Spanyolország
+265	Lengyelország	3	1982	Spanyolország
+266	Franciaország	4	1982	Spanyolország
+267	Brazília	5	1982	Spanyolország
+268	Anglia	6	1982	Spanyolország
+269	Szovjetunió	7	1982	Spanyolország
+270	Ausztria	8	1982	Spanyolország
+271	Peru	8	1982	Spanyolország
+272	Észak-Írország	9	1982	Spanyolország
+273	Belgium	10	1982	Spanyolország
+274	Argentína	11	1982	Spanyolország
+275	Spanyolország	12	1982	Spanyolország
+276	Magyarország	14	1982	Spanyolország
+277	Skócia	15	1982	Spanyolország
+278	Jugoszlávia	16	1982	Spanyolország
+279	Kamerun	17	1982	Spanyolország
+280	Honduras	18	1982	Spanyolország
+281	Csehszlovákia	19	1982	Spanyolország
+282	Kuvait	21	1982	Spanyolország
+283	Chile	22	1982	Spanyolország
+284	Új-Zéland	23	1982	Spanyolország
+285	Salvador	24	1982	Spanyolország
+286	Németország	1	1954	Svájc
+287	Magyarország	2	1954	Svájc
+288	Ausztria	3	1954	Svájc
+289	Uruguay	4	1954	Svájc
+290	Svájc	5	1954	Svájc
+291	Brazília	6	1954	Svájc
+292	Anglia	7	1954	Svájc
+293	Jugoszlávia	8	1954	Svájc
+294	Franciaország	9	1954	Svájc
+295	Törökország	10	1954	Svájc
+296	Olaszország	11	1954	Svájc
+297	Belgium	12	1954	Svájc
+298	Mexikó	13	1954	Svájc
+299	Csehszlovákia	14	1954	Svájc
+300	Skócia	15	1954	Svájc
+301	Koreai Közt	16	1954	Svájc
+302	Brazília	1	1958	Svédország
+303	Svédország	2	1958	Svédország
+304	Franciaország	3	1958	Svédország
+305	Németország	4	1958	Svédország
+306	Jugoszlávia	5	1958	Svédország
+307	Wales	5	1958	Svédország
+308	Szovjetunió	6	1958	Svédország
+309	Észak-Írország	7	1958	Svédország
+310	Csehszlovákia	9	1958	Svédország
+311	Magyarország	10	1958	Svédország
+312	Anglia	11	1958	Svédország
+313	Paraguay	12	1958	Svédország
+314	Argentína	13	1958	Svédország
+315	Skócia	14	1958	Svédország
+316	Ausztria	15	1958	Svédország
+317	Mexikó	16	1958	Svédország
+318	Uruguay	1	1930	Uruguay
+319	Argentína	2	1930	Uruguay
+320	Egyesült Államok	3	1930	Uruguay
+321	Jugoszlávia	4	1930	Uruguay
+322	Chile	5	1930	Uruguay
+323	Brazília	6	1930	Uruguay
+324	Franciaország	7	1930	Uruguay
+325	Románia	8	1930	Uruguay
+326	Paraguay	9	1930	Uruguay
+327	Peru	10	1930	Uruguay
+328	Belgium	11	1930	Uruguay
+329	Bolívia	12	1930	Uruguay
+330	Mexikó	13	1930	Uruguay
+
+
+ 3.000-L
+
+Az input fájl néhány színész adatait tartalmazza. Az egyes adatelemeket tabulátor választja el.
+Az egyes oszlopok jelentése a következő:
+•	név
+•	férfi-e
+•	születési dátum
+•	születési hely (település)
+•	születési ország
+•	filmek száma
+
+1)	Írja ki a Budapesten született színészek nevét és filmjeinek a számát!
+2)	Írja ki a New Yorkban született színészek nevét és filmjeinek a számát!
+3)	Írja ki a Berlinben született színészek nevét és filmjeinek a számát!
+4)	Írja ki a Párizsban született színészek nevét és filmjeinek a számát!
+5)	Írja ki a Tokióban született színészek nevét és filmjeinek a számát!
+6)	Hány színész született Budapesten?
+7)	Hány színész született Berlinben?
+8)	Hány színész született New Yorkban?
+9)	Hány színész született USA-ban?
+10)	Hány színész született Magyarországon?
+11)	Hány színész született Németországban?
+12)	Hány színész született Mexikóban?
+13)	Hány színész született az USA-ban?
+14)	Hány női színész született Magyarországon?
+15)	Hány női színész született Angliában?
+16)	Hány női színész született Skóciában?
+17)	Hány női színész született Belgiumban?
+18)	Hány férfi színész született Magyarországon?
+19)	Hány férfi színész született Kanadában?
+20)	Hány férfi színész született USA-ban?
+21)	Hány férfi színész született Olaszországban?
+22)	Hány női színész született Olaszországban vagy Spanyolországban?
+23)	Hány női színész született Magyarországon vagy Romániában?
+24)	Hány női színész született az USA-ban vagy Mexikóban?
+25)	Hány férfi színész született Skóciában vagy Angliában?
+26)	Hány férfi színész született Franciaországban vagy Németországban?
+27)	Hány színész született 1950-ben vagy 1951-ben, USA-ban vagy Kanadában?
+28)	Hány színész született 1955-ben vagy 1957-ben, Magyarországon vagy Kanadában?
+29)	Hány színész született 1961-ben vagy 1962-ben, Angliában vagy Skóciában?
+30)	Hány színész született 1970-ben vagy 1971-ben, USA-ban vagy Angliában?
+31)	Hány férfi színész született 1950-ben vagy 1951-ben, USA-ban vagy Kanadában?
+32)	Hány női színész született 1955-ben vagy 1957-ben, Magyarországon vagy Kanadában?
+33)	Hány férfi színész született 1961-ben vagy 1962-ben, Angliában vagy Skóciában?
+34)	Hány női színész született 1970-ben vagy 1971-ben, USA-ban vagy Angliában?
+35)	Mikor született a legidősebb színész?
+36)	Mikor született a legfiatalabb színész?
+37)	Írja ki a legidősebb színész(ek) nevét és születési évét!
+38)	Írja ki a legfiatalabb színész(ek) nevét és születési évét!
+39)	Hány filmben játszott a legtöbb filmben szereplő színész?
+40)	Hány filmben játszott a legtöbb filmben szereplő, Magyarországon született színész?
+41)	Hány filmben játszott a legtöbb filmben szereplő, USA-ban született színész?
+42)	Hány filmben játszott a legtöbb filmben szereplő, Angliában született színész?
+43)	Hány filmben játszott a legtöbb filmben szereplő, Mexikóban született színész?
+44)	Hány filmben játszott a legtöbb filmben szereplő, Olaszországban született színész?
+45)	Melyik évben született a legtöbb színész? Az évet és a színészek számát is írja ki!
+46)	Melyik évben született a legkevesebb színész? Az évet és a színészek számát is írja ki!
+47)	Melyik országban született a legtöbb színész? Az országot és a színészek számát is írja ki!
+48)	Melyik országban született a legkevesebb színész? Az országot és a színészek számát is írja ki!
+49)	Vannak-e olyan színészek, akik azonos napon születtek? Írja ki a színészek nevét és születési dátumát!
+
+Input:
+Eastwood, Clint	1	1930.05.31	San Francisco	USA	58
+Funes, Louis de	1	1914.07.31	Courbevoie	Franciaország	146
+Davis, Bette	0	1908.04.05	Lowell	USA	118
+Ullmann, Liv	0	1938.12.16	Tokió	Japán	52
+Hepburn, Audrey	0	1929.05.04	Brüsszel	Belgium	30
+Kiss, Manyi	0	1911.03.12	Zágon	Magyarország	94
+Adjani, Isabelle	0	1955.06.27	Párizs	Franciaország	33
+Streisand, Barbra	0	1942.04.24	Brooklyn	USA	25
+Wood, Natalie	0	1938.07.20	San Francisco	USA	67
+Sharif, Omar	1	1932.04.10	Alexandria	Egyiptom	107
+Minelli, Lisa	0	1946.03.12	Los Angeles	USA	27
+Niro, Robert de	1	1943.08.17	New York	USA	74
+Belushi, James	1	1954.06.15	Chicago	USA	101
+Page, Geraldine	0	1924.11.22	Kirksville	USA	66
+Gózon, Gyula	1	1885.3.13	Érsekújvár	Magyarország	78
+Hayek, Salma	0	1966.09.02	Coatzacoalcos	Mexikó	41
+Ford, Harrison	1	1942.07.13	Chicago	USA	48
+Matthau, Walter	1	1920.10.01	New York	USA	103
+Nolte, Nick	1	1941.02.08	Omaha	USA	70
+Finney, Albert	1	1936.05.09	Salford	Anglia	57
+Montand, Yves	1	1921.10.13	Monsummano Terme	Olaszország	60
+Beatty, Warren	1	1937.03.30	Richmond	USA	29
+Sutherland, Donald	1	1935.07.17	Saint John	Kanada	131
+Burton, Richard	1	1925.11.10	Pontrhydyfen	Wales	70
+MacLaine, Shirley	0	1934.04.24	Richmond	USA	59
+Zellweger, Renee	0	1969.04.25	Katy	USA	32
+Andrews, Julie	0	1935.10.01	Walton-on-Thames	Anglia	37
+Bourvil	1	1917.07.27	Petrot-Vicquemare	Franciaország	62
+Sellers, Peter	1	1925.09.08	Southsea	Anglia	76
+Gable, Clark	1	1901.02.01	Cadiz	USA	78
+Binoche, Juliette	0	1964.03.09	Párizs	Franciaország	39
+Curtis, Jamie Lee	0	1958.11.22	Los Angeles	USA	60
+Plummer, Christopher	1	1929.12.13	Toroto	Kanada	138
+Tolnay, Klári	0	1914.07.27	Budapest	Magyarország	84
+Crosby, Bing	1	1903.05.02	Tacoma	USA	84
+Peck, Gregory	1	1916.04.05	La Jolla	USA	59
+Hepburn, Katharine	0	1907.05.12	Hartford	USA	53
+York, Michael	1	1942.03.27	Fulmer	Anglia	133
+Kerr, Deborah	0	1921.09.30	Helensburgh	Skócia	52
+Szőke, Szakáll	1	1884.2.2	Budapest	Magyarország	102
+Berry, Halle	0	1966.08.14	Cleveland	USA	38
+Curtis, Tony	1	1925.06.03	Bronx	USA	131
+Csortos, Gyula	1	1883.3.3	Budapest	Magyarország	57
+Kinski, Nastassja	0	1959.01.24	Berlin	Németország	64
+Dietrich, Marlene	0	1901.12.27	Berlin	Németország	55
+Redford, Robert	1	1937.08.18	Santa Monica	USA	63
+Howard, Leslie	1	1893.4.3	Forest Hill	Anglia	34
+Tognazzi, Ugo	1	1922.03.23	Cremona	Olaszország	150
+Garbo, Greta	0	1905.09.18	Stockholm	Svédország	31
+Olivier, Laurence	1	1907.05.22	Dorking	Anglia	86
+Gassman, Vittorio	1	1922.09.01	Genova	Olaszország	127
+Quinn, Anthony	1	1915.04.21	Chihuahua	Mexikó	167
+Pécsi, Sándor	1	1922.03.18	Sajószentpéter	Magyarország	62
+Pacino, Al	1	1940.04.25	Bronx	USA	42
+Caine, Michael	1	1933.03.14	Rotherhithe	Anglia	120
+Gardner, Ava	0	1922.12.24	Brogden	USA	65
+DeVito, Danny	1	1944.11.17	Asbury Park	USA	80
+Hanks, Tom	1	1956.07.09	Concord	USA	54
+Páger, Antal	1	1899.1.29	Makó	Magyarország	153
+Fonda, Peter	1	1940.02.23	New York	USA	72
+Hopkins, Anthony	1	1937.12.31	Margam	Wales	100
+Bergman, Ingrid	0	1915.08.29	Stockholm	Svédország	52
+Moreau, Jeanne	0	1928.01.23	Párizs	Franciaország	127
+Basinger, Kim	0	1953.12.08	Athens	USA	36
+Winslet, Kate	0	1975.10.05	Reading	Anglia	31
+Latinovits, Zoltán	1	1931.09.09	Budapest	Magyarország	53
+Kline, Kevin	1	1947.10.24	St. Louis	USA	42
+Gobbi, Hilda	0	1913.06.05	Budapest	Magyarország	107
+Hawn, Goldie	0	1945.11.21	Washington	USA	33
+Deneuve, Catherine	0	1943.10.22	Párizs	Franciaország	97
+Garner, James	1	1928.04.07	Norman	USA	94
+Leigh, Janet	0	1927.07.06	Merced	USA	63
+Rooney, Mickey	1	1920.09.23	Brooklyn	USA	300
+Lemmon, Jack	1	1925.02.08	Newton	USA	101
+Newmann, Paul	1	1925.01.26	Shaker Heights	USA	75
+Delon, Alain	1	1935.11.08	Sceaux	Franciaország	89
+Shepherd, Cybill	0	1950.02.18	Memphis	USA	46
+Foster, Jodie	0	1962.11.19	Los Angeles	USA	72
+Savalas, Telly	1	1924.01.21	Garden City	USA	121
+Jávor, Pál	1	1902.01.31	Arad	Magyarország	72
+Kidman, Nicole	0	1967.06.20	Honolulu	USA	50
+Rossellini, Isabella	0	1952.06.18	Róma	Olaszország	54
+Washington, Denzel	1	1954.12.28	Mount Vernon	USA	41
+Lancaster, Burt	1	1913.11.02	New York	USA	88
+Kabos, Gyula	1	1884.3.19	Budapest	Magyarország	45
+Kelly, Grace	0	1929.11.12	Philadelphia	USA	12
+Brando, Marlon	1	1924.04.03	Omaha	USA	42
+Weaver, Sigourney	0	1949.10.08	New York	USA	44
+Bronson, Charles	1	1921.11.03	Ehrenfeld	USA	98
+Lange, Jessica	0	1949.04.20	Cloquet	USA	36
+Roberts, Julia	0	1967.10.28	Smyrna	USA	41
+Thompson, Emma	0	1959.04.15	Paddington	Anglia	40
+Nicholson, Jack	1	1937.04.22	Neptune	USA	59
+Bardot, Brigitte	0	1934.09.28	Párizs	Franciaország	47
+Latabár, Kálmán	1	1902.11.24	Kecskemét	Magyarország	33
+Ruttkai, Éva	0	1927.12.31	Budapest	Magyarország	63
+Douglas, Kirk	1	1916.12.09	Amsterdam	USA	91
+Young, Sean	0	1959.11.20	Louisville	USA	70
+Cruise, Tom	1	1962.07.03	Syracuse	USA	33
+Welles, Orson	1	1915.05.06	Kenosha	USA	111
+Taylor, Elizabeth	0	1932.02.27	Hampsteadt	Anglia	70
+Dean, James	1	1931.02.08	Marion	USA	29
+Signoret, Simone	0	1921.03.25	Wiesbaden	Németország	71
+Fernandel	1	1903.05.08	Marseille	Franciaország	149
+Lennox, Annie	0	1954.12.25	Aberdeen	Skócia	19
+Mastroianni, Marcello	1	1924.09.28	Fontana Liri	Olaszország	145
+Lopez, Jennifer	0	1969.07.24	Bronx	USA	30
+Philipe, Gérard	1	1922.12.04	Cannes	Franciaország	35
+Murray, Bill	1	1950.09.21	Wilmette	USA	46
+Hackman, Gene	1	1930.01.30	San Bernardino	USA	94
+Básti, Lajos	1	1911.11.17	Keszthely	Magyarország	45
+Girardot, Annie	0	1931.10.25	Párizs	Franciaország	154
+Chaplin, Charles	1	1889.4.16	Walworth	Anglia	86
+Perkins, Anthony	1	1932.04.04	New York	USA	58
+Costner, Kevin	1	1955.01.18	Lynwood	USA	39
+Bessenyei, Ferenc	1	1919.02.10	Hódmezővásárhely	Magyarország	75
+Streep, Meryl	0	1949.06.22	Summit	USA	57
+Williams, Robin	1	1951.07.21	Chicago	USA	80
+Lollobrigida, Gina	0	1927.07.04	Subiaco	Olaszország	72
+Depardieu, Gérard	1	1948.12.27	Châteauroux	Franciaország	155
+Fonda, Henry	1	1905.05.16	Grand Island	USA	106
+Hoffmann, Dustin	1	1937.08.08	Los Angeles	USA	64
+Aykroyd, Dan	1	1952.07.01	Ottawa	Kanada	79
+Cooper, Gary	1	1901.05.07	Helena	USA	106
+Loren, Sophia	0	1934.09.20	Pozzuoli	Olaszország	92
+Szörényi, Éva	0	1917.05.26	Budapest	Magyarország	29
+Cage, Nicolas	1	1964.01.07	Long Beach	USA	55
+Dunaway, Faye	0	1941.01.14	Bascom	USA	96
+Redgrave, Vanessa	0	1937.01.30	London	Anglia	97
+Fonda, Jane	0	1937.12.21	New York	USA	43
+Tracy, Spencer	1	1900.04.05	Milwaukee	USA	78
+Grant, Cary	1	1904.01.18	Horfield	Anglia	73
+Sinkovits, Imre	1	1928.11.22	Budapest	Magyarország	84
+Crowe, Russel	1	1964.04.07	Wellington	Új-Zéland	33
+Belmondo, Jean-Paul	1	1933.04.09	Neuilly-sur-Seine	Franciaország	81
+Irons, Jeremy	1	1948.09.19	Cowes	Anglia	66
+Smith, Will	1	1968.09.25	Philadelphia	USA	26
+Garland, Judy	0	1922.06.10	Grand Rapids	USA	33
+Gréco, Juliette	0	1927.02.07	Montpellier	Franciaország	33
+Close, Glenn	0	1947.03.19	Greewich	USA	60
+Sarandon, Susan	0	1946.10.04	New York	USA	84
+Cardinale, Claudia	0	1938.04.15	Tunis	Tunézia	103
+Muti, Ornella	0	1955.03.09	Róma	Olaszország	97
+Bogart, Humphrey	1	1899.12.25	New York	USA	74
+Hitchcock, Alfred	1	1899.8.13	Leytonstone	Anglia	35
+
+
+ 3.000-M
+
+Az input fájl Csongrád megye számos településének néhány adatát tartalmazza. Az egyes adatelemeket tabulátor választja el.
+Az egyes oszlopok jelentése a következő:
+•	település azonosító
+•	település neve
+•	rangja
+•	kistérségi besorolása
+•	területe hektárban
+•	népessége
+•	a településen lévő lakások száma
+
+1)	Hány település található az input fájlban?
+2)	Hány község rangú település található?
+3)	Hány város rangú település található?
+4)	Van-e falu rangú település?
+5)	Hány község rangú település található a Makói kistérségben?
+6)	Hány község rangú település található a Szegedi kistérségben?
+7)	Hány község rangú település található a Szentesi kistérségben?
+8)	Hány város rangú település található a Makói kistérségben?
+9)	Hány város rangú település található a Szegedi kistérségben?
+10)	Hány város rangú település található a Szentesi kistérségben?
+11)	Írja ki a község rangú települések közül az 1000 főnél népesebb települések nevét és népességét!
+12)	Írja ki a város rangú települések közül az 10000 főnél népesebb települések nevét és népességét!
+13)	Írja ki a község rangú települések közül az 1000 főnél alacsonyabb népességű települések nevét és népességét!
+14)	Írja ki a város rangú települések közül az 5000 főnél alacsonyabb népességű települések nevét és népességét!
+15)	Mennyi a legnépesebb település lélekszáma?
+16)	Mennyi a legalacsonyabb népességű település lélekszáma?
+17)	Melyik a legnépesebb település? Írja ki a település nevét és lélekszámát!
+18)	Melyik a legalacsonyabb népességű település? Írja ki a település nevét és lélekszámát!
+19)	Melyik a Makói kistérség legkisebb területű települése(i)?
+20)	Melyik a Szegedi kistérség legkisebb területű települése(i)?
+21)	Melyik a Szentesi kistérség legkisebb területű települése(i)?
+22)	Melyik a Makói kistérség legnépesebb települése(i)?
+23)	Melyik a Szegedi kistérség legnépesebb települése(i)?
+24)	Melyik a Szentesi kistérség legnépesebb települése(i)?
+25)	Írja ki a Makói kistérség településeinek népsűrűségét!
+26)	Írja ki a Szegedi kistérség településeinek népsűrűségét!
+27)	Írja ki a Szentesi kistérség településeinek népsűrűségét!
+28)	Írja ki a Kisteleki kistérség településeinek népsűrűségét!
+29)	Igaz-e, hogy minden Makói kistérségű település lélekszáma nagyobb, mint 1000?
+30)	Igaz-e, hogy minden Szentesi kistérségű település lélekszáma kisebb, mint 10000?
+31)	Igaz-e, hogy minden Szegedi kistérségű település lélekszáma nagyobb, mint 2000?
+32)	Igaz-e, hogy minden Kisteleki kistérségű település lélekszáma kisebb, mint 10000?
+33)	Írja ki a Makói kistérség településeinek egy lakásra jutó népesség számát!
+34)	Írja ki a Szentesi kistérség településeinek egy lakásra jutó népesség számát!
+35)	Írja ki a Szegedi kistérség településeinek egy lakásra jutó népesség számát!
+36)	Írja ki a Kisteleki kistérség településeinek egy lakásra jutó népesség számát!
+37)	Melyik településen a legrosszabb a lakáshelyzet? (Egy lakásra a legtöbb lakos jut.)
+38)	Készítsen kimutatást kistérségi bontásban, amelyben megadja az egyes kistérségek településeinek a számát!
+39)	Készítsen kimutatást kistérségi bontásban, amelyben megadja az egyes kistérségek összlakosságának a számát!
+40)	Készítsen kimutatást kistérségi bontásban, amelyben megadja az egyes kistérségek összterületének a nagyságát!
+
+Input:
+33367	Szeged	megyeszékhely, megyei jogú város	Szegedi	28084	162586	71711
+8314	Hódmezővásárhely	megyei jogú város	Hódmezővásárhelyi	48322	48013	19378
+5111	Csongrád	város	Csongrádi	17389	18628	8433
+31024	Kistelek	város	Kisteleki	6919	7596	3351
+7357	Makó	város	Makói	22923	25583	11324
+21555	Mindszent	város	Hódmezővásárhelyi	5939	7337	3162
+4349	Mórahalom	város	Mórahalomi	8314	5745	2415
+14456	Szentes	város	Szentesi	35325	30650	12655
+34245	Algyő	nagyközség	Szegedi	7577	5411	1950
+5379	Csanádpalota	nagyközség	Makói	7776	3239	1679
+17233	Nagymágocs	nagyközség	Szentesi	7508	3425	1250
+31705	Sándorfalva	nagyközség	Szegedi	5577	8017	2994
+32489	Szegvár	nagyközség	Szentesi	8622	4899	2078
+16197	Ambrózfalva	község	Makói	1122	565	246
+14252	Apátfalva	község	Makói	5377	3288	1595
+19062	Árpádhalom	község	Szentesi	4520	600	258
+10339	Ásotthalom	község	Mórahalomi	12254	4211	1968
+29106	Baks	község	Kisteleki	6192	2289	877
+23676	Balástya	község	Kisteleki	11000	3544	1920
+8192	Bordány	község	Mórahalomi	3648	3162	1362
+2121	Csanádalberti	község	Makói	1532	500	261
+22293	Csanytelek	község	Csongrádi	3471	2950	1406
+32285	Csengele	község	Kisteleki	6066	2027	979
+7834	Derekegyház	község	Szentesi	5379	1808	676
+24077	Deszk	község	Szegedi	5205	3419	1141
+30535	Dóc	község	Szegedi	4943	792	325
+13383	Domaszék	község	Szegedi	5215	4519	1802
+22992	Eperjes	község	Szentesi	7393	647	349
+19974	Fábiánsebestyén	község	Szentesi	7173	2263	891
+22646	Felgyő	község	Csongrádi	7673	1472	610
+18999	Ferencszállás	község	Makói	579	631	270
+33020	Forráskút	község	Mórahalomi	3667	2327	1021
+9210	Földeák	község	Makói	3637	3371	1477
+13666	Királyhegyes	község	Makói	2980	702	370
+26666	Kiszombor	község	Makói	6581	4177	1629
+8253	Klárafalva	község	Makói	910	516	194
+9955	Kövegy	község	Makói	971	471	254
+14410	Kübekháza	község	Szegedi	2731	1641	584
+5962	Magyarcsanád	község	Makói	4819	1610	751
+10515	Maroslele	község	Makói	4656	2188	930
+25733	Mártély	község	Hódmezővásárhelyi	4121	1333	552
+20914	Nagyér	község	Makói	1229	598	268
+12779	Nagylak	község	Makói	470	605	295
+29179	Nagytőke	község	Szentesi	5468	503	233
+7755	Óföldeák	község	Makói	3509	507	191
+12797	Ópusztaszer	község	Kisteleki	5950	2338	935
+31079	Öttömös	község	Mórahalomi	3091	810	423
+6284	Pitvaros	község	Makói	1314	1504	675
+6354	Pusztamérges	község	Mórahalomi	2439	1229	608
+28592	Pusztaszer	község	Kisteleki	4893	1665	786
+13161	Röszke	község	Szegedi	3663	3310	1384
+3966	Ruzsa	község	Mórahalomi	8468	2783	1421
+12007	Szatymaz	község	Szegedi	5372	4430	1903
+12265	Székkutas	község	Hódmezővásárhelyi	12399	2598	1079
+16966	Tiszasziget	község	Szegedi	2689	1761	602
+25900	Tömörkény	község	Csongrádi	5391	1931	1038
+14924	Újszentiván	község	Szegedi	1549	1636	525
+21412	Üllés	község	Mórahalomi	4988	3181	1476
+5546	Zákányszék	község	Mórahalomi	6606	2803	1385
+17765	Zsombó	község	Szegedi	2690	3441	1287
+
+
+3.000-N
+
+Az input fájl egy belföldi utazási iroda ajánlatait tartalmazza. Az egyes adatelemeket tabulátor választja el.
+Az egyes oszlopok jelentése a következő:
+•	Tájegység: az utazást érintő tájegység neve
+•	Éjszaka: az eltöltendő éjszakák száma
+•	Családos: családos vagy egyéni út (logikai)
+•	Hónap: melyik hónapra érvényes az ajánlat
+•	Maximális létszám
+•	Jelentkezések: eddig jelentkezettek száma
+•	Ár: részvételi díj egy főre
+
+1)	Hány ajánlat található az input fájlban?
+2)	Hány mátrai tájegységre vonatozó ajánlat található az input fájlban?
+3)	Hány mecseki tájegységre vonatozó ajánlat található az input fájlban?
+4)	Hány bakonyi tájegységre vonatozó ajánlat található az input fájlban?
+5)	Hány hortobágyi tájegységre vonatozó ajánlat található az input fájlban?
+6)	Hány őrségi tájegységre vonatozó ajánlat található az input fájlban?
+7)	Hány mátrai tájegységre vonatozó, családos ajánlat található az input fájlban?
+8)	Hány mecseki tájegységre vonatozó, egyéni ajánlat található az input fájlban?
+9)	Hány bakonyi tájegységre vonatozó, májusi ajánlat található az input fájlban?
+10)	Hány hortobágyi tájegységre vonatozó, júliusi ajánlat található az input fájlban?
+11)	Hány őrségi tájegységre vonatozó, októberi ajánlat található az input fájlban?
+12)	Hány mátrai tájegységre vonatozó, családos, öt napnál hosszabb ajánlat található az input fájlban?
+13)	Hány mecseki tájegységre vonatozó, egyéni, 3 napnál rövidebb ajánlat található az input fájlban?
+14)	Hány bakonyi tájegységre vonatozó, májusi, egy hétnél hosszabb ajánlat található az input fájlban?
+15)	Hány hortobágyi tájegységre vonatozó, júliusi, egy hetes ajánlat található az input fájlban?
+16)	Hány őrségi tájegységre vonatozó, októberi, öt napos ajánlat található az input fájlban?
+17)	Hány mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező ajánlat található az input fájlban?
+18)	Hány mecseki tájegységre vonatozó, egyéni, még szabad hellyel rendelkező ajánlat található az input fájlban?
+19)	Hány bakonyi tájegységre vonatozó, májusi, még szabad hellyel rendelkező ajánlat található az input fájlban?
+20)	Hány hortobágyi tájegységre vonatozó, júliusi, még szabad hellyel rendelkező ajánlat található az input fájlban?
+21)	Hány őrségi tájegységre vonatozó, októberi, még szabad hellyel rendelkező ajánlat található az input fájlban?
+22)	Válogassuk ki a mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező ajánlatokat!
+23)	Válogassuk ki a bükki tájegységre vonatozó, májusi, még szabad hellyel rendelkező ajánlatokat!
+24)	Válogassuk ki a zempléni tájegységre vonatozó, egyéni, még szabad hellyel rendelkező ajánlatokat!
+25)	Válogassuk ki a mecseki tájegységre vonatozó, júniusi, még szabad hellyel rendelkező ajánlatokat!
+26)	Válogassuk ki a balatoni tájegységre vonatozó, augusztusi, még szabad hellyel rendelkező ajánlatokat!
+27)	Válogassuk ki a mátrai tájegységre vonatozó, családos, még szabad hellyel rendelkező, 20000 Ft alatti ajánlatokat!
+28)	Válogassuk ki a bükki tájegységre vonatozó, májusi, még szabad hellyel rendelkező, 50000 Ft alatti ajánlatokat!
+29)	Válogassuk ki a zempléni tájegységre vonatozó, egyéni, még szabad hellyel rendelkező, 60000 Ft alatti ajánlatokat!
+30)	Válogassuk ki a mecseki tájegységre vonatozó, júniusi, még szabad hellyel rendelkező, 30000 Ft alatti ajánlatokat!
+31)	Válogassuk ki a balatoni tájegységre vonatozó, augusztusi, még szabad hellyel rendelkező, 40000 Ft alatti ajánlatokat!
+32)	Válogassuk ki a mátrai tájegységre vonatozó, nyári, még szabad hellyel rendelkező ajánlatokat!
+33)	Válogassuk ki a bükki tájegységre vonatozó, nyári, még szabad hellyel rendelkező ajánlatokat!
+34)	Válogassuk ki a zempléni tájegységre vonatozó, téli, még szabad hellyel rendelkező!
+35)	Válogassuk ki a mecseki tájegységre vonatozó, tavaszi, még szabad hellyel rendelkező ajánlatokat!
+36)	Válogassuk ki a balatoni tájegységre vonatozó, őszi, még szabad hellyel rendelkező ajánlatokat!
+37)	Van-e az irodának téli, balatoni ajánlata?
+38)	Van-e az irodának őszi, balatoni ajánlata?
+39)	Van-e az irodának tavaszi, hortobágyi ajánlata?
+40)	Van-e az irodának téli, bakonyi ajánlata?
+41)	Van-e az irodának őszi, bükki ajánlata?
+42)	Van-e az irodának nyári, pilisi ajánlata?
+43)	Van-e az irodának téli, őrségi ajánlata?
+44)	Igaz-e, hogy az minden ajánlat legalább 3 napos?
+45)	Igaz-e, hogy az minden ajánlat legalább 5 napos?
+46)	Igaz-e, hogy az minden ajánlat legalább 2 napos?
+47)	Igaz-e, hogy az minden ajánlat legalább 10000 Ft-ba kerül?
+48)	Igaz-e, hogy az minden ajánlat legalább 5000 Ft-ba kerül?
+49)	Igaz-e, hogy az minden ajánlat legalább 1000 Ft-ba kerül?
+50)	Igaz-e, hogy az minden ajánlat tavaszi, és maximális létszáma legalább 20 fő?
+51)	Igaz-e, hogy az minden ajánlat nyári, és maximális létszáma legalább 5 fő?
+52)	Igaz-e, hogy az minden ajánlat téli, és maximális létszáma legalább 30 fő?
+53)	Igaz-e, hogy az minden ajánlat őszi, és maximális létszáma legalább 15 fő?
+54)	Hány forintba kerül a legdrágább ajánlat?
+55)	Hány forintba kerül a legolcsóbb ajánlat?
+56)	Hány napos a leghosszabb ajánlat?
+57)	Hány napos a legrövidebb ajánlat?
+58)	Hány fős a legnagyobb maximális létszámú ajánlat?
+59)	Hány fős a legkisebb maximális létszámú ajánlat?
+60)	Hány fős a legtöbb jelentkezéssel bíró ajánlat?
+61)	Hány fős a legkisebb jelentkezéssel bíró ajánlat?
+62)	Válogassuk ki a mecseki utak közül azokat, melyekre minden hely elkelt.
+63)	Válogassuk ki a zempléni utak közül azokat, melyekre minden hely elkelt.
+64)	Válogassuk ki az őrségi utak közül azokat, melyekre minden hely elkelt.
+65)	Válogassuk ki a balatoni utak közül azokat, melyekre minden hely elkelt.
+66)	Válogassuk ki a legdrágább ajánlatokat?
+67)	Válogassuk ki a legolcsóbb ajánlatokat?
+68)	Válogassuk ki a leghosszabb ajánlatokat?
+69)	Válogassuk ki a legrövidebb ajánlatokat?
+70)	Válogassuk ki a legnagyobb maximális létszámú ajánlatokat?
+71)	Válogassuk ki a legkisebb maximális létszámú ajánlatokat?
+72)	Válogassuk ki a legtöbb jelentkezéssel bíró ajánlatokat?
+73)	Válogassuk ki a legkisebb jelentkezéssel bíró ajánlatokat?
+74)	Válogassuk ki a nyári, legalább 5 napos ajánlatok közül a legolcsóbbakat!
+75)	Válogassuk ki az őszi, legfeljebb 5 napos ajánlatok közül a legdrágábbakat!
+76)	Válogassuk ki a tavaszi, legalább 2 napos ajánlatok közül a legolcsóbbakat!
+77)	Válogassuk ki a nyári, legfeljebb egy hetes ajánlatok közül a legdrágábbakat!
+78)	Válogassuk ki az őszi, legalább egy hetes ajánlatok közül a legolcsóbbakat!
+79)	Válogassuk ki a téli, legfeljebb 5 napos ajánlatok közül a legdrágábbakat!
+80)	Válogassuk ki az őszi, legalább egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!
+81)	Válogassuk ki az mátrai, legalább 3 napos, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!
+82)	Válogassuk ki az őszi, legfeljebb egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!
+83)	Válogassuk ki az mátrai, vagy bükki, legalább egy hetes, szabad hellyel rendelkező ajánlatok közül a legolcsóbbakat!
+84)	Válogassuk ki az nyári, legfeljebb egy hetes, szabad hellyel rendelkező ajánlatok közül a legdrágábbakat!
+
+Input:
+Mátra	1	False	Január	40	20	86700
+Bükk	7	False	Február	40	18	41100
+Tisza-tó	6	False	Március	45	0	30800
+Mecsek	5	False	Április	40	20	47400
+Bakony	6	False	Május	45	20	83700
+Balaton	7	True	Június	40	18	99900
+Zemplén	4	False	Július	35	0	47300
+Balaton	4	True	Augusztus	35	0	8500
+Bakony	4	False	Szeptember	45	23	46100
+Pilis	2	False	Október	35	20	37900
+Mecsek	6	True	November	45	20	47600
+Bükk	7	False	December	50	23	800
+Bükk	4	False	Január	35	0	25600
+Zselic	6	False	Február	35	20	10600
+Zselic	7	False	Március	40	18	75800
+Tisza-tó	7	False	Április	50	0	26400
+Tisza-tó	4	True	Május	35	0	30600
+Bükk	2	True	Június	25	25	40800
+Mecsek	7	True	Július	50	23	8400
+Mátra	4	False	Augusztus	35	0	79400
+Zselic	2	False	Szeptember	25	25	17500
+Zemplén	2	True	Október	45	20	57200
+Hortobágy	4	False	November	25	20	88100
+Hortobágy	3	True	December	30	30	3600
+Őrség	4	True	Január	35	0	62800
+Zemplén	5	False	Február	50	32	37200
+Mecsek	1	False	Március	50	32	87300
+Mátra	3	True	Április	50	23	46900
+Zemplén	6	True	Május	25	25	35600
+Mátra	5	False	Június	30	12	80800
+Balaton	2	True	Július	45	20	49500
+Hortobágy	2	True	Augusztus	35	20	75000
+Pilis	4	True	Szeptember	45	23	91300
+Bakony	1	False	Október	30	12	68500
+Mátra	4	False	November	45	23	54400
+Bükk	4	False	December	25	20	90500
+Őrség	1	True	Január	30	12	35000
+Pilis	1	False	Február	30	12	55900
+Zselic	4	True	Március	45	23	53000
+Bükk	1	True	Április	50	32	30000
+Hortobágy	5	False	Május	40	20	72400
+Mátra	2	False	Június	45	20	47700
+Balaton	5	False	Július	30	12	20100
+Tisza-tó	4	True	Augusztus	25	20	96800
+Mecsek	3	False	Szeptember	30	30	25000
+Bakony	3	True	Október	40	18	34300
+Hortobágy	1	False	November	30	12	87200
+Bakony	5	False	December	40	20	82600
+Bükk	5	True	Január	30	12	27800
+Őrség	7	False	Február	30	30	29900
+Hortobágy	4	True	Március	35	0	76700
+Balaton	4	False	Április	25	20	40600
+Balaton	7	True	Május	30	30	14500
+Őrség	4	False	Június	25	20	80500
+Pilis	5	True	Július	50	32	76100
+Zemplén	3	True	Augusztus	50	23	4800
+Pilis	3	False	Szeptember	40	18	80900
+Bakony	7	True	Október	50	23	61200
+Őrség	6	False	November	25	25	80100
+Zemplén	4	False	December	45	23	52800
+Bakony	2	False	Január	35	20	75800
+Őrség	4	True	Február	45	23	70600
+Bükk	3	False	Március	30	30	61800
+Balaton	3	False	Április	50	23	33500
+Mátra	1	False	Május	50	32	43700
+Bakony	4	False	Június	35	0	54900
+Bakony	4	True	Július	25	20	24600
+Zemplén	1	False	Augusztus	40	20	45700
+Hortobágy	3	True	Szeptember	40	18	38600
+Pilis	7	True	Október	30	30	43300
+Őrség	5	False	November	50	32	82800
+Zselic	5	False	December	30	12	85200
+Hortobágy	6	True	Január	45	20	15600
+Tisza-tó	5	True	Február	40	0	37400
+Zselic	4	True	Március	25	20	81300
+Mecsek	4	False	Április	45	23	31900
+Bükk	4	False	Május	45	23	25400
+Pilis	6	False	Június	25	25	42700
+Őrség	3	False	Július	40	18	49400
+Zselic	1	True	Augusztus	50	32	98900
+Őrség	2	True	Szeptember	35	20	36800
+Mecsek	4	False	Október	35	0	66100
+Balaton	1	False	November	40	20	26300
+Őrség	1	True	December	40	20	98300
+Mátra	6	False	Január	35	20	5900
+Bakony	3	True	Február	30	30	52500
+Zselic	2	False	Március	45	20	800
+Hortobágy	2	False	Április	25	25	6600
+Mecsek	2	True	Május	25	25	40100
+Hortobágy	7	False	Június	50	23	97400
+Mátra	7	True	Július	40	18	800
+Bükk	6	False	Augusztus	45	20	83300
+Bükk	5	True	Szeptember	40	20	9300
+Balaton	5	False	Október	50	32	66900
+Bükk	6	False	November	35	20	74100
+Zemplén	7	False	December	30	30	50100
+Balaton	6	True	Január	35	20	74500
+Zselic	3	False	Február	50	23	27200
+Mátra	4	True	Március	25	20	1400
+Balaton	6	False	Április	25	25	92500
+
+
+3.000-O
+
+Az input fájl afrikai és amerikai kontinens országainak adatait tartalmazza. Az egyes adatelemeket tabulátor választja el.
+Az egyes oszlopok jelentése a következő:
+•	az adott ország neve
+•	az ország államformája
+•	terület négyzetkilométerben
+•	népesség ezer fő egységben
+•	földrész
+
+1)	Hány ország található az input fájlban?
+2)	Határozza meg az afrikai földrész népességének a nagyságát ezer főben!
+3)	Határozza meg a dél-amerikai földrész népességének a nagyságát ezer főben!
+4)	Határozza meg a közép-amerikai földrész népességének a nagyságát ezer főben!
+5)	Határozza meg a közép-amerikai földrész népességének a nagyságát ezer főben!
+6)	Határozza meg az észak-amerikai földrész népességének a nagyságát ezer főben!
+7)	Határozza meg az afrikai földrész területének a nagyságát négyzetkilométerben!
+8)	Határozza meg a dél-amerikai földrész területének a nagyságát négyzetkilométerben!
+9)	Határozza meg a közép-amerikai földrész területének a nagyságát négyzetkilométerben!
+10)	Határozza meg a közép-amerikai földrész területének a nagyságát négyzetkilométerben!
+11)	Határozza meg az észak-amerikai földrész területének a nagyságát négyzetkilométerben!
+12)	Hány ország található az afrikai földrészen?
+13)	Hány ország található a dél-amerikai földrészen?
+14)	Hány ország található a közép-amerikai földrészen?
+15)	Hány ország található az észak-amerikai földrészen?
+16)	Hány 5000 négyzetkilométernél nagyobb ország található az afrikai földrészen?
+17)	Hány 5000 négyzetkilométernél kisebb ország található az afrikai földrészen?
+18)	Hány 15000 négyzetkilométernél nagyobb ország található az dél-amerikai földrészen?
+19)	Hány 7000 négyzetkilométernél kisebb ország található az dél-amerikai földrészen?
+20)	Hány 7000 négyzetkilométernél nagyobb ország található az közép-amerikai földrészen?
+21)	Hány 8000 négyzetkilométernél kisebb ország található az közép-amerikai földrészen?
+22)	Hány 8000 négyzetkilométernél kisebb ország található az amerikai földrészen?
+23)	Hány 8000 négyzetkilométernél nagyobb ország található az amerikai földrészen?
+24)	Hány 20 milliónál kisebb népességű ország található az amerikai földrészen?
+25)	Hány 20 milliónál nagyobb népességű ország található az amerikai földrészen?
+26)	Válogassa ki a 20 milliónál népesebb afrikai országokat!
+27)	Válogassa ki a 20 milliónál népesebb dél-amerikai országokat!
+28)	Válogassa ki a 20 milliónál népesebb közép-amerikai országokat!
+29)	Válogassa ki a 20 milliónál népesebb észak-amerikai országokat!
+30)	Válogassa ki a 20 milliónál népesebb amerikai országokat!
+31)	Válogassa ki a 20 milliónál alacsonyabb népességű amerikai országokat!
+32)	Válogassa ki a 100000 négyzetkilométernél nagyobb amerikai országokat!
+33)	Válogassa ki a 100000 négyzetkilométernél kisebb amerikai országokat!
+34)	Mekkora a területe a fájlban található legnagyobb országnak?
+35)	Mekkora a területe a fájlban található legkisebb országnak?
+36)	Mekkora a lakossága a fájlban található legnépesebb országnak?
+37)	Mekkora a lakossága a fájlban található legkisebb népességű országnak?
+38)	Mekkora a területe a legnagyobb afrikai országnak?
+39)	Mekkora a területe a legnagyobb dél-amerikai országnak?
+40)	Mekkora a területe a legnagyobb közép-amerikai országnak?
+41)	Mekkora a területe a legnagyobb észak-amerikai országnak?
+42)	Mekkora a területe a legnagyobb amerikai országnak?
+43)	Mennyi a lakossága a legnépesebb afrikai országnak?
+44)	Mennyi a lakossága a legnépesebb dél-amerikai országnak?
+45)	Mennyi a lakossága a legnépesebb közép-amerikai országnak?
+46)	Mennyi a lakossága a legnépesebb észak-amerikai országnak?
+47)	Mennyi a lakossága a legnépesebb amerikai országnak?
+48)	Mekkora a népsűrűsége a legsűrűbben lakott afrikai országnak (fő/négyzetkilométer)?
+49)	Mekkora a népsűrűsége a legsűrűbben lakott dél-amerikai országnak (fő/négyzetkilométer)?
+50)	Mekkora a népsűrűsége a legsűrűbben lakott közép-amerikai országnak (fő/négyzetkilométer)?
+51)	Mekkora a népsűrűsége a legsűrűbben lakott észak-amerikai országnak (fő/négyzetkilométer)?
+52)	Mekkora a népsűrűsége a legsűrűbben lakott amerikai országnak (fő/négyzetkilométer)?
+
+Input:
+Kongói Demokratikus Köztársaság	köztársaság	2344885	36672	Afrika
+Zöld-foki Köztársaság	köztársaság	4033	369	Afrika
+Zimbabwe	köztársaság	390759	10402	Afrika
+Zambia	köztársaság	752614	8023	Afrika
+Venezuela	szövetségi köztársaság	912050	20249	Dél-Amerika
+Uruguay	köztársaság	176215	3131	Dél-Amerika
+Uganda	köztársaság	241139	17804	Afrika
+Tunézia	köztársaság	163610	8222	Afrika
+Trinidad és Tobago	köztársaság	5128	1263	Afrika
+Togo	köztársaság	56785	3349	Afrika
+Tanzánia	szövetségi köztársaság	945087	25635	Afrika
+Szváziföld	monarchia	17363	768	Afrika
+Szudán	köztársaság	2505813	24485	Afrika
+Szomália	köztársaság	637657	7339	Afrika
+Szenegál	köztársaság	196722	7172	Afrika
+Suriname	köztársaság	163265	404	Dél-Amerika
+Sierra Leone	köztársaság	71740	4376	Afrika
+Seychelle-szigetek	köztársaság	454	67	Afrika
+Sao Tomé és Príncipe	köztársaság	1001	118	Afrika
+Salvador	köztársaság	21041	5207	Közép-Amerika
+Saint Vicent	alkotmányos monarchia	389	110	Közép-Amerika
+Saint Lucia	alkotmányos monarchia	616	148	Közép-Amerika
+Saint Kitts és Nevis	alkotmányos monarchia	262	50	Közép-Amerika
+Ruanda	köztársaság	26339	7165	Afrika
+Peru	köztársaság	1285216	22454	Dél-Amerika
+Paraguay	köztársaság	406752	4157	Dél-Amerika
+Panama	köztársaság	75517	2515	Közép-Amerika
+Nyugat-Szahara	(jelenleg megszállás alatt)	266	174	Afrika
+Nigéria	szövetségi köztársaság	923768	88515	Afrika
+Niger	köztársaság	1267000	7252	Afrika
+Nicaragua	köztársaság	120254	4130	Közép-Amerika
+Namíbia	köztársaság	824292	1402	Afrika
+Mozambik	köztársaság	799380	16593	Afrika
+Mexikó	szövetségi köztársaság	1958201	89538	Közép-Amerika
+Mauritius	köztársaság	2040	1084	Afrika
+Mauritánia	köztársaság	1030700	2036	Afrika
+Marokkó	örökletes monarchia	446550	24522	Afrika
+Mali	köztársaság	1240192	8156	Afrika
+Malawi	köztársaság	118484	8823	Afrika
+Madagaszkár	köztársaság	587041	11493	Afrika
+Líbia	köztársaság	1775500	4385	Afrika
+Libéria	köztársaság	97754	2580	Afrika
+Lesotho	alkotmányos monarchia	30355	1700	Afrika
+Kuba	köztársaság	110860	10822	Közép-Amerika
+Közép-Afrikai Köztársaság	köztársaság	622984	2895	Afrika
+Kongó	köztársaság	342000	1941	Afrika
+Kolumbia	köztársaság	1141748	33951	Dél-Amerika
+Kenya	köztársaság	580367	25700	Afrika
+Kanada	szövetségi állam	9958319	27409	Észak-Amerika
+Kamerun	köztársaság	475445	11540	Afrika
+Jamaica	alkotmányos monarchia	10991	2375	Közép-Amerika
+Honduras	köztársaság	112088	5105	Közép-Amerika
+Haiti	köztársaság	27750	6764	Közép-Amerika
+Guyana	köztársaság	24969	1024	Dél-Amerika
+Guinea	köztársaság	245857	6706	Afrika
+Guatemala	köztársaság	108889	10030	Közép-Amerika
+Grenada	alkotmányos monarchia	344	110	Közép-Amerika
+Ghána	köztársaság	238537	15400	Afrika
+Gambia	köztársaság	11295	878	Afrika
+Gabon	köztársaság	267667	1206	Afrika
+Etiópia	köztársaság	1130138	50000	Afrika
+Eritrea	köztársaság	121144	3325	Afrika
+Elefántcsontpart	köztársaság	322462	12098	Afrika
+Egyiptom	köztársaság	997739	55163	Afrika
+Egyenlítői- Guinea	köztársaság	28051	341	Afrika
+Ecuador	köztársaság	272045	10741	Dél-Amerika
+Dzsibuti	köztársaság	23200	520	Afrika
+Dominikai Köztársaság	köztársaság	48422	7313	Közép-Amerika
+Dominikai Közösség	köztársaság	750	81	Közép-Amerika
+Dél-Afrikai Köztársaság	szövetségi köztársaság	1221037	34492	Afrika
+Csád	köztársaság	1284000	5961	Afrika
+Costa Rica	köztársaság	51100	3064	Közép-Amerika
+Comore Szigetek	köztársaság	1862	503	Afrika
+Chile	köztársaság	756626	13813	Dél-Amerika
+Burundi	köztársaság	27834	5786	Afrika
+Burkina Faso	köztársaság	274200	9490	Afrika
+Brazília	szövetségi köztársaság	8511966	159224	Dél-Amerika
+Botswana	köztársaság	582000	1373	Afrika
+Bolívia	köztársaság	1098581	7832	Dél-Amerika
+Bissau-Guinea	köztársaság	36125	966	Afrika
+Benin	népi köztársaság	112622	4889	Afrika
+Barbados	alkotmányos monarchia	430	257	Közép-Amerika
+Bahama-szigetek	alkotmányos monarchia	13939	255	Közép-Amerika
+Argentína	szövetségi köztársaság	2766889	32609	Dél-Amerika
+Antigua és Barbuda	alkotmányos monarchia	442	86	Közép-Amerika
+Angola	köztársaság	1246700	10020	Afrika
+Amerikai Egyesült Államok	szövetségi köztársaság	9809155	257900	Észak-Amerika
+Algéria	népi demokratikus köztársaság	2381741	26600	Afrika
+
+3.001
+
+Adjunk össze N db szomszédos egész számot A-tól kezdődően!
+
+
+ 3.002
+
+Szorozzunk össze N db szomszédos egész számot A-tól kezdődően!
+
+
+ 3.003
+
+Határozzuk meg K db egész szám számtani közepét!
+
+
+ 3.004
+
+Határozzuk meg K db pozitív egész szám
+
+   1. mértani közepét,
+   2. harmonikus közepét!
+
+
+ 3.005
+
+Ismerjük,   hogy  a  Futapest  versenyre  egyesületenként  hány  versenyzőt
+neveztek. Írjunk programot, amely meghatározza az idulók várható számát!
+Input:
+[17, 25, 33, 27, 49, 61, 34, 71, 32, 45, 101, 21, 75, 30, 23, 45, 75, 17, 25, 33, 27, 49, 61, 34, 71, 32, 45, 101, 21,
+ 75, 30, 23, 45, 75, 17, 25, 33, 27, 49, 61, 34, 71, 32, 45, 101, 21, 75, 30, 23, 45, 75]
+
+
+  3.006
+
+Határozzuk meg K db egész szám négyzetének
+
+   1. összegét,
+   2. szorzatát!
+
+
+ 3.007
+
+Határozzuk meg K db egész szám köbének összegét!
+
+
+ 3.008
+
+N   hónapon   át   törlesztettünk   egy  kölcsönt,  havonkénti  fizetéssel.
+(Havonként   különböző  összeget  is  fizethettünk.)  Adjuk  meg  az  eddig
+kifizetett összeget!
+
+
+ 3.009
+
+Határozzuk  meg  két  N  dimenziós  vektor skaláris szorzatát, ha adottak a
+két vektor elemei!
+Input:
+[3, 2, -3, 5, 5, 4, -1]
+
+
+ 3.010
+
+Írjunk programot, amely előállítja két mátrix szorzatát!
+Input:
+3
+1 2 3
+4 5 6
+7 8 9
+1 2 3
+4 5 6
+7 8 9

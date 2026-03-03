@@ -1,5 +1,3 @@
-from importlib.metadata import pass_none
-
 szamok = [2, 0, -5, 4]
 
 i = 0

@@ -16,7 +16,7 @@ Szövegértelmezés:
   - Viszont a vizsgálatot, csak az első találatig kell folytatni.
   - Az eredmény logikai. Igen/Nem választ várnak a kérdésre.
 2.  "négyzetszám: az adott tulajdonságot fogja jelenteni, amit keresünk.
-3.  "van-e": A vizsgálat kimenetele láthatóan egy logikai értéke lesz. (Vagy tartalmaz ilyet, vagy nem.)
+3.  "van-e": A vizsgálat kimenetele láthatóan egy logikai érték lesz. (Vagy tartalmaz ilyet, vagy nem.)
     Továbbá a tulajdonság jelenlétét kell vizsgálni. (Akkor igaz ha van, különben hamis.)  
 Ebből már látjuk, hogy az eldöntés tételét kell alkalmazni.
 Az eldöntés tetele: 

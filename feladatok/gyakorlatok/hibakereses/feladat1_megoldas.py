@@ -26,6 +26,8 @@ if vegrehajthato = True: <- 1
     print("Fennmaradó kreditek: {kredit}, fennmaradó hűségpontok: {husegpontok}")  <- 1
 """
 
+print("#"*3)
+
 arak: list[int] = [200, 300, 400, 500]
 kredit: int = int(input("Add meg mennyi kredited van: "))
 szallitasi_koltseg: int = 300

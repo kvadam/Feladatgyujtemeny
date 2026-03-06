@@ -11,10 +11,12 @@ class Meres:
 
 
 meresek: list[Meres] = list()
-varosok: set[str] = set()
 
 def egyedi_varosnevek() -> set[str]:
-    return set(varos for varos in varosok)
+    varosnevek: set[str] = set()
+    for meres in meresek:
+        varosnevek.add(meres.varos)
+    return varosnevek
 
 
 def feladat1() -> None:
@@ -37,9 +39,9 @@ def feladat2() -> None:
 
 def feladat3() -> None:
     print("3. feladat")
-    minm: Meres = meresek[0]
-    maxm: Meres = meresek[0]
-    for i in range(len(meresek)):
+    minm = meresek[0]
+    maxm = meresek[0]
+    for i in range(1, len(meresek)):
         if meresek[i].homerseklet < minm.homerseklet:
             minm = meresek[i]
         if meresek[i].homerseklet > maxm.homerseklet:
@@ -60,7 +62,7 @@ def feladat4() -> None:
         print("Nem volt szélcsend a mérések idején.")
 
 
-def feladat5() -> None:
+def feladat5(varosok: set[str]) -> None:
     print("5. feladat")
     for varos in varosok:
         idopontok: list[int] = [1, 7, 13, 19]
@@ -82,7 +84,7 @@ def feladat5() -> None:
         print(f"{varos} Középhőmérséklet: {round(osszeg / db) if len(idopontok) == 0 else "NA"}; Hőmérséklet-ingadozás: {maxh - minh}")
 
 
-def feladat6() -> None:
+def feladat6(varosok: set[str]) -> None:
     print("6. feladat")
     for varos in varosok:
         eleresi_ut = f"kimenet/{varos}.txt"
@@ -94,13 +96,13 @@ def feladat6() -> None:
 
 
 def main() -> None:
-    varosok = egyedi_varosnevek()
+    varosok: set[str] = egyedi_varosnevek()
     feladat1()
     feladat2()
     feladat3()
     feladat4()
-    feladat5()
-    feladat6()
+    feladat5(varosok)
+    feladat6(varosok)
 
 
 if __name__ == '__main__':

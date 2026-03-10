@@ -1,3 +1,45 @@
+"""
+Konstansok:
+    n: Egész := 7
+    t: Tömb[1..n] := {5, 8, 10, 5, 10, 8, 7}
+Változók:
+    e: Tömb[1..n]
+    db: Egész := 0
+    i, j: Egész
+    van: Logikai
+Program:
+2)  Ciklus i := 1-től n-ig
+1)      van := HAMIS
+3)      Ciklus j := 1-től db-ig
+5)          Ha t[i] = e[j] akkor
+4)              van := IGAZ
+6)              Kilépés a ciklusból
+8)          Elágazás vége
+7)      Ciklus vége
+10)     Ha van = HAMIS akkor
+9)          db := db + 1
+11)         e[db] := t[i]
+13)     Elágazás vége
+12) Ciklus vége
+14) Ki: e[1..db]
+Program vége
+"""
+
+t: list[int] = [5, 8, 10, 5, 10, 8, 7]
+e: list[int] = list()
+van: bool
+
+for i in range(len(t)):
+    van = False
+    for j in range(len(e)):
+        if t[i] == e[j]:
+            van = True
+            break
+    if not van:
+        e.append(t[i])
+print(e)
+
+
 szamok = [2, 0, -5, 4]
 
 i = 0

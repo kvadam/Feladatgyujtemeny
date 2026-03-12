@@ -3,7 +3,7 @@ arak: list[str] = [200, 300, 'négyszáz', 500]
 kredit: int = float(input("Add meg mennyi kredited van: ")
 szallitasi_koltseg: int = 300.0
 
-osszar += 0
+osszar: int += 0
 for ar in range(arak):
     osszar -= arak
 

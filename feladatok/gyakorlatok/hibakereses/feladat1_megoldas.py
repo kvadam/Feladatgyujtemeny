@@ -5,7 +5,7 @@ arak: list[str] = [200, 300, 'négyszáz', 500] <- 2
 kredit: int = float(input("Add meg mennyi kredited van: ") <- 2
 szallitasi_koltseg: int = 300.0 <- 1
 
-osszar += 0 <- 1
+osszar: int += 0 <- 1
 for ar in range(arak): <- 1
     osszar -= arak <- 2
 

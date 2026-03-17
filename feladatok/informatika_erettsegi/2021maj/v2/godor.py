@@ -1,4 +1,13 @@
+from dataclasses import dataclass
+
+@dataclass
+class Godor:
+    kezd: int
+    veg: int
+    melysegek: list[int]
+
 melysegek: list[int] = list()
+godrok: list[Godor] = list()
 
 def feladat1() -> None:
     print("1. feladat")
@@ -18,84 +27,85 @@ def feladat2() -> int:
 
 def feladat3() -> None:
     print("3. feladat")
-    erintetlen: int = 0
-    for melyseg in melysegek:
-        if melyseg == 0:
-            erintetlen += 1
+    erintetlen: int = sum([1 for melyseg in melysegek if melyseg == 0])
     print(f"Az érintetlen területek aránya {((erintetlen / len(melysegek)) * 100):0.2f}%")
 
 
 def feladat4() -> int:
-    with open("godrok.txt", "w", encoding="utf-8") as godrok:
+    with open("godrok.txt", "w", encoding="utf-8") as godrok_txt:
         godor: bool = False
-        godrok_szama: int = 0
+        j: int = -1
         for i in range(1, len(melysegek)):
             if melysegek[i - 1] == 0 and melysegek[i] != 0:
                 godor = True
-                godrok_szama += 1
+                godrok.append(Godor(i, -1, []))
+                j += 1
             elif melysegek[i - 1] != 0 and melysegek[i] == 0:
                 godor = False
-                godrok.write("\n")
+                godrok[j].veg = i - 1
+                godrok_txt.write("\n")
             if godor:
-                godrok.write(f"{melysegek[i]} ")
-    return godrok_szama
+                godrok[j].melysegek.append(melysegek[i])
+                godrok_txt.write(f"{melysegek[i]} ")
+    return len(godrok)
 
 
-def feladat5(godrok_szama: int) -> None:
+def feladat5() -> None:
     print("5. feladat")
-    print(f"A gödrök száma: {godrok_szama}")
+    print(f"A gödrök száma: {len(godrok)}")
+
+
+def melyik_godor(tav: int) -> int:
+    i: int = 0
+    while i < len(godrok) and not (godrok[i].kezd < tav and godrok[i].veg > tav):
+        i += 1
+
+    godor_index: int = i if i < len(godrok) else -1
+    return godor_index
+
 
 def feladat6(tavolsag: int) -> None:
     print("6. feladat")
+    gi: int = melyik_godor(tavolsag)
+    if gi < 0:
+        print("Az adott helyen nincs gödör.")
+        return
+    godor: Godor = godrok[gi]
+
     print("a)")
-    print(tavolsag)
-    kezdopont: int = 0
-    vegpont: int = 0
-    i: int = tavolsag
-    while melysegek[i - 1] != 0:
-        i -= 1
-    kezdopont = i + 1
-    i = tavolsag
-    while melysegek[i - 1] != 0:
-        i += 1
-    vegpont = i - 1
-    print(f"A gödör kezdete: {kezdopont} méter, a gödör vége: {vegpont} méter.")
+    print(f"A gödör kezdete: {godor.kezd + 1} méter, a gödör vége: {godor.veg + 1} méter.")
+    # B részt ellenőrizni
+
     print("b)")
-    i = kezdopont - 1
-    j: int = vegpont - 1
-    while i < j and melysegek[i] >= melysegek[i - 1] and melysegek[j] >= melysegek[j + 1]:
+    i: int = 0
+    j: int = len(godor.melysegek) - 2
+    while i < j and godor.melysegek[i] >= godor.melysegek[i - 1] and godor.melysegek[j] >= godor.melysegek[j + 1]:
         i += 1
         j -= 1
     if i < j:
         print("Nem mélyül folyamatosan.")
     else:
         print("Folyamatosan mélyül.")
+
     print("c)")
-    max_melyseg: int = melysegek[kezdopont - 1]
-    i = kezdopont
-    while i < vegpont:
-        if melysegek[i] > max_melyseg:
-            max_melyseg = melysegek[i]
-        i += 1
+    max_melyseg: int = max([melyseg for melyseg in godor.melysegek])
     print(f"A legnagyobb mélysége {max_melyseg} méter.")
+
     print("d)")
-    v: int = 0
-    i = kezdopont - 1
-    while i < vegpont:
-        v += melysegek[i] * 10
-        i += 1
-    print(f"A térfogata {v} m^3.")
+    terfogat: int = sum([melyseg * 10 for melyseg in godor.melysegek])
+    print(f"A térfogata {terfogat} m^3.")
+
     print("e)")
-    vv: int = v - ((vegpont - (kezdopont - 1)) * 10)
-    print(f"A vízmennyisé {vv} m^3.")
+    vizmennyiseg: int = terfogat - (len(godor.melysegek) * 10)
+    print(f"A vízmennyiség {vizmennyiseg} m^3.")
 
 
 def main() -> None:
     feladat1()
     tavolsag: int = feladat2()
     feladat3()
-    godrok_szama: int = feladat4()
-    feladat5(godrok_szama)
+    feladat4()
+    feladat5()
     feladat6(tavolsag)
 
 

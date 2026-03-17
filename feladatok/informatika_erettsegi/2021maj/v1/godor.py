@@ -1,13 +1,4 @@
-from dataclasses import dataclass
-
-@dataclass
-class Godor:
-    kezd: int
-    veg: int
-    m: list[int]
-
 melysegek: list[int] = list()
-godrok: list[Godor] = list()
 
 def feladat1() -> None:
     print("1. feladat")
@@ -35,74 +26,75 @@ def feladat3() -> None:
 
 
 def feladat4() -> int:
-    with open("godrok.txt", "w", encoding="utf-8") as godrok_txt:
+    with open("godrok.txt", "w", encoding="utf-8") as godrok:
         godor: bool = False
         godrok_szama: int = 0
-        j: int = -1
         for i in range(1, len(melysegek)):
             if melysegek[i - 1] == 0 and melysegek[i] != 0:
                 godor = True
                 godrok_szama += 1
-                godrok.append(Godor(i, -1, [melysegek[i]]))
-                j += 1
             elif melysegek[i - 1] != 0 and melysegek[i] == 0:
                 godor = False
-                godrok[j].veg = i - 1
-                godrok_txt.write("\n")
+                godrok.write("\n")
             if godor:
-                godrok[j].m.append(melysegek[i])
-                godrok_txt.write(f"{melysegek[i]} ")
+                godrok.write(f"{melysegek[i]} ")
     return godrok_szama
 
 
 def feladat5(godrok_szama: int) -> None:
     print("5. feladat")
-    print(f"A gödrök száma: {len(godrok)}")
-
-
-def melyik_godor(tav: int) -> int:
-    i: int = 0
-    while i < len(godrok) and not (godrok[i].kezd < tav and godrok[i].veg > tav):
-        i += 1
-
-    if i < len(godrok):
-        return i
-    else:
-        return -1
-
+    print(f"A gödrök száma: {godrok_szama}")
 
 def feladat6(tavolsag: int) -> None:
     print("6. feladat")
+    if melysegek[tavolsag - 1] == 0:
+        print("Az adott helyen nincs gödör.")
+        return
+
     print("a)")
-    gi: int = melyik_godor(tavolsag)
-    print(f"A gödör kezdete: {godrok[gi].kezd + 1} méter, a gödör vége: {godrok[gi].veg + 1} méter.")
+    print(tavolsag)
+    kezdopont: int = 0
+    vegpont: int = 0
+    i: int = tavolsag
+    while melysegek[i - 1] != 0:
+        i -= 1
+    kezdopont = i + 1
+    i = tavolsag
+    while melysegek[i - 1] != 0:
+        i += 1
+    vegpont = i - 1
+    print(f"A gödör kezdete: {kezdopont} méter, a gödör vége: {vegpont} méter.")
+
     print("b)")
-    i: int = 0
-    j: int = len(godrok[gi].m) - 1
-    while i < j and godrok[gi].m[i] >= godrok[gi].m[i - 1] and godrok[gi].m[j] >= godrok[gi].m[j + 1]:
+    i = kezdopont - 1
+    j: int = vegpont - 1
+    while i < j and melysegek[i] >= melysegek[i - 1] and melysegek[j] >= melysegek[j + 1]:
         i += 1
         j -= 1
     if i < j:
         print("Nem mélyül folyamatosan.")
     else:
         print("Folyamatosan mélyül.")
+
     print("c)")
-    max_melyseg: int = melysegek[godrok[gi].kezd]
-    i = godrok[gi].kezd + 1
-    while i < len(godrok[gi].m):
-        if godrok[gi].m[i] > max_melyseg:
-            max_melyseg = godrok[gi].m[i]
+    max_melyseg: int = melysegek[kezdopont - 1]
+    i = kezdopont
+    while i < vegpont:
+        if melysegek[i] > max_melyseg:
+            max_melyseg = melysegek[i]
         i += 1
     print(f"A legnagyobb mélysége {max_melyseg} méter.")
+
     print("d)")
     v: int = 0
-    i = godrok[gi].kezd
-    while i < len(godrok[gi].m):
+    i = kezdopont - 1
+    while i < vegpont:
         v += melysegek[i] * 10
         i += 1
     print(f"A térfogata {v} m^3.")
+
     print("e)")
-    vv: int = v - ((godrok[gi].veg - (godrok[gi].kezd - 1)) * 10)
+    vv: int = v - ((vegpont - (kezdopont - 1)) * 10)
     print(f"A vízmennyisé {vv} m^3.")
 
 

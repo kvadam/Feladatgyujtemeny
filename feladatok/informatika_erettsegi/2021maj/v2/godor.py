@@ -77,12 +77,15 @@ def feladat6(tavolsag: int) -> None:
     # B részt ellenőrizni
 
     print("b)")
-    i: int = 0
-    j: int = len(godor.melysegek) - 2
-    while i < j and godor.melysegek[i] >= godor.melysegek[i - 1] and godor.melysegek[j] >= godor.melysegek[j + 1]:
+    melypont: int = max(godor.melysegek)
+    mp_i: int = godor.melysegek.index(melypont)
+    i: int = mp_i
+    while i < len(godor.melysegek) and godor.melysegek[i] >= godor.melysegek[i + 1]:
         i += 1
+    j: int = mp_i
+    while j > 1 and godor.melysegek[j] >= godor.melysegek[j - 1]:
         j -= 1
-    if i < j:
+    if i < len(godor.melysegek) and j > 0:
         print("Nem mélyül folyamatosan.")
     else:
         print("Folyamatosan mélyül.")

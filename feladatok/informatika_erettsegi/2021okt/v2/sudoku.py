@@ -14,8 +14,7 @@ def feladat2(fajlnev: str) -> None:
     eleresi_ut: str = "../forras/" + fajlnev
     with open(eleresi_ut, "r", encoding="utf-8") as forras:
         for i in range(0, 9):
-            tablazat.append(list(map(int, forras.readline().strip().split(" "))))
-
+            tablazat.append([int(szam) for szam in forras.readline().strip().split(" ")])
         for sor in forras:
             s: list[str] = sor.strip().split()
             lepesek.append(Lepes(int(s[0]), int(s[1]), int(s[2])))
@@ -27,18 +26,12 @@ def feladat3(sor: int, oszlop: int) -> None:
         print("Az adott helyet még nem töltötték ki.")
         return
     print(f"Az adott helyen szereplő szám: {tablazat[sor-1][oszlop-1]}")
-    a: int = (sor // 3) * 3
-    b: int = oszlop // 3
-    print(f"A hely a(z) {a + b + 1} résztáblához tartozik.")
+    print(f"A hely a(z) {(sor // 3) * 3 + oszlop // 3 + 1} résztáblához tartozik.")
 
 
 def feladat4() -> None:
     print("4. feladat")
-    nullak_szama: int = 0
-    for sor in tablazat:
-        for szam in sor:
-            if szam == 0:
-                nullak_szama += 1
+    nullak_szama: int = sum(1 for sor in tablazat for szam in sor if szam == 0)
     print(f"Az üresek aránya: {((nullak_szama / 81) * 100):0.1f}%")
 
 
@@ -58,10 +51,7 @@ def feladat5() -> None:
             print("Az adott sorban már szerepel a szám.")
             continue
         # Oszlopban szerepel
-        i: int = 0
-        while i < 9 and tablazat[i][oszlop] != l.szam:
-            i += 1
-        if i < 9:
+        if l.szam in [tablazat[i][oszlop] for i in range(9)]:
             print("Az adott oszlopban már szerepel a szám.")
             continue
         # Résztáblában szerepel
@@ -83,10 +73,10 @@ def feladat5() -> None:
 def main() -> None:
     print("1. feladat")
     # fajlnev: str = input("Adja meg a bemeneti fájl nevét! ")
-    fajlnev: str = "konnyu.txt"
     # sor: int = int(input("Adja meg egy sor számát! "))
-    sor: int = 1
     # oszlop: int = int(input("Adja meg a bemeneti fájl nevét! "))
+    fajlnev: str = "konnyu.txt"
+    sor: int = 1
     oszlop: int = 1
     feladat2(fajlnev)
     feladat3(sor, oszlop)

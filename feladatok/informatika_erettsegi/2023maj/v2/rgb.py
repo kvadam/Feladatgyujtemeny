@@ -13,7 +13,7 @@ def feladat1() -> None:
     with open("../forras/kep.txt", "r", encoding="utf-8") as forras:
         i: int = 0
         for sor in forras:
-            s: list[int] = [int(szam) for szam in sor.strip().split(" ")]
+            s: list[int] = list(map(int, sor.strip().split(" ")))
             keppontok.append(list())
             for j in range(0, len(s), 3):
                 keppontok[i].append(Keppont(s[j], s[j+1], s[j+2]))
@@ -32,27 +32,14 @@ def feladat2() -> None:
 
 def feladat3() -> None:
     print("3. feladat")
-    vilagos_keppontok_szama: int = 0
-    for sor in keppontok:
-        for keppont in sor:
-            if (keppont.r + keppont.g + keppont.b) > 600:
-                vilagos_keppontok_szama += 1
-    print(f"A világos képpontok száma: {vilagos_keppontok_szama}")
+    vilagos: int = sum(1 for sor in keppontok for keppont in sor if (keppont.r + keppont.g + keppont.b) > 600)
+    print(f"A világos képpontok száma: {vilagos}")
 
 
 def feladat4() -> None:
     print("4. feladat")
-    legkisebb_osszeg: int = keppontok[0][0].r + keppontok[0][0].g + keppontok[0][0].b
-    for sor in keppontok:
-        for keppont in sor:
-            osszeg: int = keppont.r + keppont.g + keppont.b
-            if osszeg < legkisebb_osszeg:
-                legkisebb_osszeg = osszeg
-    for sor in keppontok:
-        for keppont in sor:
-            osszeg: int = keppont.r + keppont.g + keppont.b
-            if osszeg == legkisebb_osszeg:
-                print(f"RGB({keppont.r}, {keppont.g}, {keppont.b})")
+    min_ossz: int = min([kp.r + kp.g + kp.b for sor in keppontok for kp in sor])
+    [print(f"RGB({kp.r}, {kp.g}, {kp.b})") for sor in keppontok for kp in sor if (kp.r + kp.g + kp.b) == min_ossz]
 
 
 def hatar(ssz: int, elteres: int) -> bool:

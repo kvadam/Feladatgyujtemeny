@@ -71,9 +71,19 @@ def feladat7() -> None:
     with open("kimaradt.txt", "w", encoding="utf-8") as kimaradt:
         for i in range(1, len(jeladasok)):
             ido_kul: int = eltelt(jeladasok[i-1].ido, jeladasok[i].ido)
+            kimaradt_tav: int = 0
+            kimaradt_ido: int = 0
             if ido_kul > 300:
+                kimaradt_ido = (ido_kul - 1) // 300
+            tav: int = max(abs(jeladasok[i-1].x - jeladasok[i].x), abs(jeladasok[i-1].y - jeladasok[i].y))
+            if tav > 10.0:
+                kimaradt_tav = (tav - 1) // 10
+            if kimaradt_tav > kimaradt_ido:
                 ido: time = jeladasok[i].ido
-                kimaradt.write(f"{ido.hour} {ido.minute} {ido.second} időeltérés {(ido_kul // 300) - 1}\n")
+                kimaradt.write(f"{ido.hour} {ido.minute} {ido.second} koordináta-eltérés {kimaradt_tav}\n")
+            if kimaradt_tav < kimaradt_ido:
+                ido: time = jeladasok[i].ido
+                kimaradt.write(f"{ido.hour} {ido.minute} {ido.second} időeltérés {kimaradt_ido}\n")
 
 
 

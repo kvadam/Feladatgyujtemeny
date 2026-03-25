@@ -1,13 +1,14 @@
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
+
 
 @dataclass
 class Felszallo:
     mid: int
-    fdat: str
+    fdat: datetime
     fid: str
     berlet: str
-    edat: str
+    edat: datetime | int
 
 
 felszallok: list[Felszallo] = list()
@@ -22,12 +23,35 @@ def napokszama(e1: int, h1: int, n1: int, e2: int, h2: int, n2: int) -> int:
     return d2-d1
 
 
+def szovegbol_datum(szoveg: str) -> datetime:
+    ev: int = int(szoveg[0:4])
+    honap: int = int(szoveg[4:6])
+    nap: int = int(szoveg[6:8])
+    if len(szoveg) > 8:
+        ora: int = int(szoveg[9:11])
+        perc: int = int(szoveg[11:13])
+        mp: int = 0
+    else:
+        ora: int = 23
+        perc: int = 59
+        mp: int = 59
+    return datetime(ev, honap, nap, ora, perc, mp)
+
+
 
 def feladat1() -> None:
     with open("../forras/utasadat.txt", "r", encoding="utf-8") as forras:
         for sor in forras:
             s: list[str] = sor.strip().split(" ")
-            felszallok.append(Felszallo(int(s[0]), s[1], s[2], s[3], s[4]))
+            mid: int = int(s[0])
+            fdat: datetime = szovegbol_datum(s[1])
+            fid: str = s[2]
+            berlet: str = s[3]
+            if len(s[4]) < 8:
+                edat: int = int(s[4])
+            else:
+                edat: datetime = szovegbol_datum(s[4])
+            felszallok.append(Felszallo(mid, fdat, fid, berlet, edat))
 
 
 def feladat2() -> None:
@@ -39,17 +63,64 @@ def feladat3() -> None:
     print("3. feladat")
     nem_utazhat: int = 0
     for f in felszallok:
-        if f.edat == "0":
+        if type(f.edat) == int and f.edat == 0:
             nem_utazhat += 1
-        # if napokszama(f.fdat[0::4], f.fdat[4::6], f.fdat[6::8], f.edat[0::4], f.edat[4::6], f.edat[6::8])
-    print(f"A buszra ??? utas nem szállhatott fel.")
+        if type(f.edat) == datetime and f.fdat > f.edat:
+            nem_utazhat += 1
+    print(f"A buszra {nem_utazhat} utas nem szállhatott fel.")
+
+
+def feladat4() -> None:
+    max_felszallo_fo: int = 0
+    max_megallo: int = 0
+    megallo: int = 0
+    felszallo_fo: int = 0
+    for felszallo in felszallok:
+        if felszallo.mid != megallo:
+            if felszallo_fo > max_felszallo_fo:
+                max_felszallo_fo = felszallo_fo
+                max_megallo = megallo
+            megallo = felszallo.mid
+            felszallo_fo = 0
+        felszallo_fo += 1
+    print(f"A legtöbb utas ({max_felszallo_fo} fő) a {max_megallo}. megállóban próbált felszállni.")
+
+
+def feladat5() -> None:
+    print("5. feladat")
+    ingyenes_fo: int = 0
+    kedvezmenyes_fo: int = 0
+    for felszallo in felszallok:
+        if felszallo.berlet in ["NYP", "RVS", "GYK"]:
+            ingyenes_fo += 1
+        if felszallo.berlet in ["TAB", "NYB"]:
+            kedvezmenyes_fo += 1
+    print(f"Ingyenesen utazók száma: {ingyenes_fo} fő")
+    print(f"A kedvezményesen utazók száma: {kedvezmenyes_fo} fő")
+
+
+def feladat7() -> None:
+    with open("figyelmeztetes.txt", "w", encoding="utf-8") as kimenet:
+        for felszallo in felszallok:
+            if type(felszallo.edat) == datetime:
+                ev1: int = felszallo.fdat.year
+                ho1: int = felszallo.fdat.month
+                nap1: int = felszallo.edat.day
+                ev2: int = felszallo.edat.year
+                ho2: int = felszallo.edat.month
+                nap2: int = felszallo.fdat.day
+                napok = napokszama(ev1, ho1, nap1, ev2, ho2, nap2)
+                if napok >= 0 and napok <=3:
+                    kimenet.write(f"{felszallo.fid}  {felszallo.edat.year}-{felszallo.edat.month}-{felszallo.edat.day}\n")
 
 
 def main() -> None:
     feladat1()
     feladat2()
     feladat3()
-
+    feladat4()
+    feladat5()
+    feladat7()
 
 if __name__ == '__main__':
     main()

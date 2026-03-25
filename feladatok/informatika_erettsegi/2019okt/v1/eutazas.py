@@ -38,6 +38,13 @@ def szovegbol_datum(szoveg: str) -> datetime:
     return datetime(ev, honap, nap, ora, perc, mp)
 
 
+def ervenyes(f: Felszallo) -> bool:
+    if type(f.edat) == int and f.edat == 0:
+        return False
+    if type(f.edat) == datetime and f.fdat > f.edat:
+        return False
+    return True
+
 
 def feladat1() -> None:
     with open("../forras/utasadat.txt", "r", encoding="utf-8") as forras:
@@ -63,9 +70,7 @@ def feladat3() -> None:
     print("3. feladat")
     nem_utazhat: int = 0
     for f in felszallok:
-        if type(f.edat) == int and f.edat == 0:
-            nem_utazhat += 1
-        if type(f.edat) == datetime and f.fdat > f.edat:
+        if not ervenyes(f):
             nem_utazhat += 1
     print(f"A buszra {nem_utazhat} utas nem szállhatott fel.")
 
@@ -91,6 +96,8 @@ def feladat5() -> None:
     ingyenes_fo: int = 0
     kedvezmenyes_fo: int = 0
     for felszallo in felszallok:
+        if not ervenyes(felszallo):
+            continue
         if felszallo.berlet in ["NYP", "RVS", "GYK"]:
             ingyenes_fo += 1
         if felszallo.berlet in ["TAB", "NYB"]:
@@ -105,10 +112,10 @@ def feladat7() -> None:
             if type(felszallo.edat) == datetime:
                 ev1: int = felszallo.fdat.year
                 ho1: int = felszallo.fdat.month
-                nap1: int = felszallo.edat.day
+                nap1: int = felszallo.fdat.day
                 ev2: int = felszallo.edat.year
                 ho2: int = felszallo.edat.month
-                nap2: int = felszallo.fdat.day
+                nap2: int = felszallo.edat.day
                 napok = napokszama(ev1, ho1, nap1, ev2, ho2, nap2)
                 if napok >= 0 and napok <=3:
                     kimenet.write(f"{felszallo.fid}  {felszallo.edat.year}-{felszallo.edat.month}-{felszallo.edat.day}\n")
@@ -121,6 +128,7 @@ def main() -> None:
     feladat4()
     feladat5()
     feladat7()
+
 
 if __name__ == '__main__':
     main()

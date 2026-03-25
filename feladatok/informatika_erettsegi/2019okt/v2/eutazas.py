@@ -68,28 +68,19 @@ def feladat2() -> None:
 
 def feladat3() -> None:
     print("3. feladat")
-    nem_utazhat: int = 0
-    for f in felszallok:
-        if not ervenyes(f):
-            nem_utazhat += 1
+    nem_utazhat: int = sum([1 for f in felszallok if not ervenyes(f)])
     print(f"A buszra {nem_utazhat} utas nem szállhatott fel.")
 
 
 def feladat4() -> None:
-    print("4. feladat")
-    max_felszallo_fo: int = 0
-    max_megallo: int = 0
-    megallo: int = 0
-    felszallo_fo: int = 0
-    for felszallo in felszallok:
-        if felszallo.mid != megallo:
-            if felszallo_fo > max_felszallo_fo:
-                max_felszallo_fo = felszallo_fo
-                max_megallo = megallo
-            megallo = felszallo.mid
-            felszallo_fo = 0
-        felszallo_fo += 1
-    print(f"A legtöbb utas ({max_felszallo_fo} fő) a {max_megallo}. megállóban próbált felszállni.")
+    megallok: dict[int, int] = {i : 0 for i in range(30)}
+    for f in felszallok:
+        megallok[f.mid] += 1
+    maxf: int = max([v for v in megallok.values()])
+    for k in megallok:
+        if megallok[k] == maxf:
+            print(f"A legtöbb utas ({megallok[k]} fő) a {k}. megállóban próbált felszállni.")
+            return
 
 
 def feladat5() -> None:

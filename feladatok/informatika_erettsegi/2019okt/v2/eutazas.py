@@ -85,14 +85,16 @@ def feladat4() -> None:
 
 def feladat5() -> None:
     print("5. feladat")
+    ingyenes: list[str] = ["NYP", "RVS", "GYK"]
+    kedvezmenyes: list[str] = ["TAB", "NYB"]
     ingyenes_fo: int = 0
     kedvezmenyes_fo: int = 0
     for felszallo in felszallok:
         if not ervenyes(felszallo):
             continue
-        if felszallo.berlet in ["NYP", "RVS", "GYK"]:
+        if felszallo.berlet in ingyenes:
             ingyenes_fo += 1
-        if felszallo.berlet in ["TAB", "NYB"]:
+        if felszallo.berlet in kedvezmenyes:
             kedvezmenyes_fo += 1
     print(f"Ingyenesen utazók száma: {ingyenes_fo} fő")
     print(f"A kedvezményesen utazók száma: {kedvezmenyes_fo} fő")
@@ -100,17 +102,11 @@ def feladat5() -> None:
 
 def feladat7() -> None:
     with open("figyelmeztetes.txt", "w", encoding="utf-8") as kimenet:
-        for felszallo in felszallok:
-            if type(felszallo.edat) == datetime:
-                ev1: int = felszallo.fdat.year
-                ho1: int = felszallo.fdat.month
-                nap1: int = felszallo.fdat.day
-                ev2: int = felszallo.edat.year
-                ho2: int = felszallo.edat.month
-                nap2: int = felszallo.edat.day
-                napok = napokszama(ev1, ho1, nap1, ev2, ho2, nap2)
-                if napok >= 0 and napok <=3:
-                    kimenet.write(f"{felszallo.fid}  {felszallo.edat.year}-{felszallo.edat.month}-{felszallo.edat.day}\n")
+        for f in felszallok:
+            if type(f.edat) == datetime:
+                napok = napokszama(f.fdat.year, f.fdat.month, f.fdat.day, f.edat.year, f.edat.month, f.edat.day)
+                if 0 >= napok <=3:
+                    kimenet.write(f"{f.fid}  {datetime.strftime(f.edat, "%Y-%m-%d")}\n")
 
 
 def main() -> None:

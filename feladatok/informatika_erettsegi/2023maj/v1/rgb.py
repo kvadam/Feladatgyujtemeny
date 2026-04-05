@@ -63,6 +63,7 @@ def hatar(ssz: int, elteres: int) -> bool:
 
 
 def feladat6() -> None:
+    print("6. feladat")
     legelso: int = -1
     legutolso: int = -1
     for i in range(len(keppontok)):

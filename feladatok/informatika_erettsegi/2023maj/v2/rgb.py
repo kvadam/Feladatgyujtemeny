@@ -53,12 +53,12 @@ def feladat6() -> None:
     legelso: int = -1
     legutolso: int = -1
     for i in range(len(keppontok)):
-        if hatar(i+1, 10):
+        if hatar(i, 10):
             if legelso < 0:
                 legelso = i
             legutolso = i
-    print(f"A felhő legfelső sora: {legelso + 1}")
-    print(f"A felhő legalsó sora: {legutolso + 1}")
+    print(f"A felhő legfelső sora: {legelso}")
+    print(f"A felhő legalsó sora: {legutolso}")
 
 
 def main() -> None:
